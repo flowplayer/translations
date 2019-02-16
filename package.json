@@ -1,6 +1,6 @@
 {
   "name": "@flowplayer/translations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translation files for flowplayer",
   "main": "index.js",
   "scripts": {
