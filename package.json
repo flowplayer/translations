@@ -1,0 +1,11 @@
+{
+  "name": "@flowplayer/translations",
+  "version": "1.0.0",
+  "description": "Translation files for flowplayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flowplayer Authors <info@flowplayer.com>",
+  "license": "SEE LICENSE IN LICENSE.md"
+}
