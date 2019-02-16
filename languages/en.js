@@ -1,7 +1,7 @@
 var lang = {
   core: {
     play: "Play",
-    pause: "Pause,
+    pause: "Pause",
     volume: "Volume",
     mute: "Mute",
     unmute: "Unmute",
