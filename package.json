@@ -4,8 +4,14 @@
   "description": "Translation files for flowplayer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
   },
   "author": "Flowplayer Authors <info@flowplayer.com>",
-  "license": "SEE LICENSE IN LICENSE.md"
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "expose-loader": "^0.7.5",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
 }

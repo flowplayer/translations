@@ -1,4 +1,4 @@
-var lang = {
+module.exports = {
   core: {
     play: "Play",
     pause: "Pause",
@@ -9,6 +9,3 @@ var lang = {
     exit_fullscreen: "Exit fullscreen"
   }
 }
-
-
-export default lang
