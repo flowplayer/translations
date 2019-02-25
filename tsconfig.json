@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "outDir": "/tmp/fp-trans"
+  },
+  "include": [ "types", "languages/**/*.js" ],
+}

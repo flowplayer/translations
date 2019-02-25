@@ -1,11 +1,16 @@
-module.exports = {
+/**
+ * @type { import("./types").Translation}
+ */
+var en = {
   core: {
-    play: "Play",
-    pause: "Pause",
-    volume: "Volume",
-    mute: "Mute",
-    unmute: "Unmute",
+    exit_fullscreen: "Exit fullscreen",
     fullscreen: "Fullscreen",
-    exit_fullscreen: "Exit fullscreen"
+    mute: "Mute",
+    pause: "Pause",
+    play: "Play",
+    unmute: "Unmute",
+    volume: "Volume"
   }
 }
+
+module.exports = en
