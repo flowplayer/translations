@@ -6,9 +6,15 @@ interface CoreTranslations {
   play: string,
   unmute: string,
   volume: string
-} 
- 
- export interface Translation {
-  core: CoreTranslations
+}
+
+interface PlaylistTranslations {
+  up_next: string,
+  cancel: string
+}
+
+export interface Translation {
+  core: CoreTranslations,
+  playlist: PlaylistTranslations
 }
 

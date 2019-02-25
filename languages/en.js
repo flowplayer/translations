@@ -10,6 +10,10 @@ var en = {
     play: "Play",
     unmute: "Unmute",
     volume: "Volume"
+  },
+  playlist: {
+    up_next: "Up next",
+    cancel: "Cancel"
   }
 }
 
