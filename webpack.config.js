@@ -1,5 +1,6 @@
 const LANGUAGES = [
-  "en"
+  "en",
+  "fi"
 ]
 
 const entries = Object.assign.apply({}, LANGUAGES.map(lang => ({ [`flowplayer.lang.${lang}.js`]: `expose-loader?flowplayer.i18n.${lang}!./languages/${lang}`})))
