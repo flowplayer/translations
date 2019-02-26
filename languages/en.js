@@ -23,7 +23,7 @@ var en = {
     menu_title: "Quality"
   },
   share: {
-    clipboard_failure: "Access to clipboard vailed",
+    clipboard_failure: "Access to clipboard failed",
     clipboard_success: "The text is now on your clipboard",
     embed: "Embed",
     link: "Link",
