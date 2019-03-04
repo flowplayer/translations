@@ -59,7 +59,7 @@ jobs:
             - v1-dependencies-
 
       - run: npm run build
-      - run: pip install awscli
+      - run: sudo apt-get update && sudo apt-get install -y awscli
       - run: aws s3 sync dist/ "s3://$S3_BUCKET/native/translations"
 
 
