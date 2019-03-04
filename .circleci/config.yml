@@ -66,10 +66,7 @@ jobs:
 
 workflows:
     version: 2
-    test:
-      jobs:
-        - test
-    test-and-publish:
+    test-and-maybe-publish:
       jobs:
         - test
         - publish-translations:
