@@ -73,9 +73,9 @@ workflows:
       jobs:
         - test
         - publish-translations:
-          requires:
-            - test
-          filters:
-            branches:
-              only: master
+            requires:
+              - test
+            filters:
+              branches:
+                only: master
 
