@@ -11,6 +11,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "expose-loader": "^0.7.5",
+    "tmp": "0.0.33",
     "tslint": "^5.13.0",
     "typescript": "^3.3.3333",
     "webpack": "^4.29.5",

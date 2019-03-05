@@ -7,3 +7,11 @@ export {
   fi,
   sv
 }
+
+var all = {
+  en: en,
+  fi: fi,
+  sv: sv
+}
+
+if (typeof flowplayer !== "undefined") flowplayer.util.extend(flowplayer.i18n, all)
