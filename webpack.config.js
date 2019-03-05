@@ -3,7 +3,9 @@ const path = require("path")
 const LANGUAGES = [
   "en",
   "fi",
-  "sv"
+  "sv",
+  "sk",
+  "cs"
 ]
 
 
@@ -20,11 +22,18 @@ const entry = lang => {
   return name
 }
 
+const all = () => {
+  let { fd, name } = tmp("all")
+  fs.writeSync(fd, `import * as all from './index'; flowplayer.util.extend(flowplayer.i18n, all)`)
+  fs.close(fd)
+  return name
+}
+
 const entries = Object.assign.apply({}, LANGUAGES.map(lang => ({ [`flowplayer.lang.${lang}`]: entry(lang)})))
 
 module.exports = {
   entry: {
     ...entries,
-    'flowplayer.lang.all': './index'
+    'flowplayer.lang.all': all()
   }
 }
