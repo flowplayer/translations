@@ -25,6 +25,6 @@ const entries = Object.assign.apply({}, LANGUAGES.map(lang => ({ [`flowplayer.la
 module.exports = {
   entry: {
     ...entries,
-    'flowplayer.lang.all': 'expose-loader?flowplayer.i18n!./index'
+    'flowplayer.lang.all': './index'
   }
 }
