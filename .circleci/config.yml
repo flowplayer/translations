@@ -17,6 +17,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - run: echo $S3_AWS_ACCESS_KEY_ID
       - checkout
 
       # Download and cache dependencies
@@ -60,7 +61,7 @@ jobs:
 
       - run: npm run build
       - run: sudo apt-get update && sudo apt-get install -y awscli
-      - run: echo $S3_AWS_ACCESS_KEY_ID
+     
 workflows:
     version: 2
     test-and-maybe-publish:
