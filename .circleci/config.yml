@@ -60,10 +60,7 @@ jobs:
 
       - run: npm run build
       - run: sudo apt-get update && sudo apt-get install -y awscli
-      - run: AWS_SECRET_ACCESS_KEY=$S3_AWS_SECRET_ACCESS_KEY AWS_ACCESS_KEY_ID=$S3_AWS_ACCESS_KEY_ID aws s3 sync dist/ "s3://$S3_BUCKET/native/translations" --acl public-read
-
-
-
+      - run: echo $S3_AWS_ACCESS_KEY_ID
 workflows:
     version: 2
     test-and-maybe-publish:
