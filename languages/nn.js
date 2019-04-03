@@ -1,7 +1,7 @@
 /**
  * @type { import("./types").Translation}
  */
-var en = {
+var nn = {
   audio: {
     button_txt: "Lyd",
     menu_title: "Lyd"
