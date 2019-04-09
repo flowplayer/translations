@@ -16,17 +16,17 @@ var es = {
     volume: "Volumen"
   },
   playlist: {
-    cancel: "Cancel",
+    cancel: "Cancelar",
     up_next: "Siguiente"
   },
   qsel: {
     menu_title: "Calidad"
   },
   share: {
-    clipboard_failure: "Access to clipboard failed",
+    clipboard_failure: "Fallo en el acceso al portapapeles",
     clipboard_success: "El código de insercíon ahora está en tu portapapeles",
     embed: "Insertar",
-    link: "Link",
+    link: "Enlace",
     menu_title: "Compartir"
   }
 }

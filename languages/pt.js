@@ -16,14 +16,14 @@ var pt = {
     volume: "Volume"
   },
   playlist: {
-    cancel: "Cancel",
+    cancel: "Cancelar",
     up_next: "A seguir"
   },
   qsel: {
     menu_title: "Qualidade"
   },
   share: {
-    clipboard_failure: "Access to clipboard failed",
+    clipboard_failure: "Falha no acesso à área de transferência",
     clipboard_success: "O código de inserção está agora na sua área de transferência",
     embed: "Embutir",
     link: "Link",

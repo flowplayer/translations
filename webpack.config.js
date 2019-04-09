@@ -1,11 +1,17 @@
 const fs = require("fs")
 const path = require("path")
 const LANGUAGES = [
+  "cs",
+  "de",
   "en",
+  "es",
   "fi",
-  "sv",
+  "nb",
+  "nn",
+  "pt",
+  "se",
   "sk",
-  "cs"
+  "sv"
 ]
 
 

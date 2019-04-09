@@ -1,13 +1,25 @@
-import en from "./languages/en"
-import fi from "./languages/fi"
-import sv from "./languages/sv"
-import sk from "./languages/sk"
 import cs from "./languages/cs"
+import de from "./languages/de"
+import en from "./languages/en"
+import es from "./languages/es"
+import fi from "./languages/fi"
+import nb from "./languages/nb"
+import nn from "./languages/nn"
+import pt from "./languages/pt"
+import se from "./languages/se"
+import sk from "./languages/sk"
+import sv from "./languages/sv"
 
 export {
+  cs,
+  de,
   en,
+  es,
   fi,
-  sv,
+  nb,
+  nn,
+  pt,
+  se,
   sk,
-  cs
+  sv
 }
