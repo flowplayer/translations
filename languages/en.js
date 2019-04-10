@@ -28,7 +28,10 @@ var en = {
     embed: "Embed",
     link: "Link",
     menu_title: "Share"
-  }
+  },
+  speed: {
+    menu_title: "Speed"
+  },
 }
 
 module.exports = en
