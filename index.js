@@ -6,7 +6,6 @@ import fi from "./languages/fi"
 import nb from "./languages/nb"
 import nn from "./languages/nn"
 import pt from "./languages/pt"
-import se from "./languages/se"
 import sk from "./languages/sk"
 import sv from "./languages/sv"
 
@@ -19,7 +18,6 @@ export {
   nb,
   nn,
   pt,
-  se,
   sk,
   sv
 }
