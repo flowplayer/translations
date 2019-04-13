@@ -40,6 +40,6 @@ export interface Translation {
   share: ShareTranslations,
   qsel: QualitySelectionTranslations,
   audio: AudioTranslations,
-  speed: SpeedTranslations,
+  speed?: SpeedTranslations,
 }
 
