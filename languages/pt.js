@@ -28,7 +28,10 @@ var pt = {
     embed: "Embutir",
     link: "Link",
     menu_title: "Compartilhar"
-  }
+  },
+  speed: {
+    menu_title: "Velocidade"
+  },
 }
 
 module.exports = pt

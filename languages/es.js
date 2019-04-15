@@ -28,7 +28,10 @@ var es = {
     embed: "Insertar",
     link: "Enlace",
     menu_title: "Compartir"
-  }
+  },
+  speed: {
+    menu_title: "Velocidad"
+  },
 }
 
 module.exports = es

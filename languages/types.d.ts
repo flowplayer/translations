@@ -30,11 +30,16 @@ export interface AudioTranslations {
   menu_title: string
 }
 
+export interface SpeedTranslations {
+  menu_title: string,
+}
+
 export interface Translation {
   core: CoreTranslations,
   playlist: PlaylistTranslations,
   share: ShareTranslations,
   qsel: QualitySelectionTranslations,
-  audio: AudioTranslations
+  audio: AudioTranslations,
+  speed?: SpeedTranslations,
 }
 
