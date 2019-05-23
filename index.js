@@ -8,6 +8,7 @@ import nn from "./languages/nn"
 import pt from "./languages/pt"
 import sk from "./languages/sk"
 import sv from "./languages/sv"
+import pl from "./languages/pl"
 
 export {
   cs,
@@ -19,5 +20,6 @@ export {
   nn,
   pt,
   sk,
-  sv
+  sv,
+  pl
 }
