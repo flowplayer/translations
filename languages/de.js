@@ -15,6 +15,9 @@ var de = {
     unmute: "Ton ein",
     volume: "Lautstärke"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Abbrechen",
     up_next: "Nächste"
@@ -28,9 +31,6 @@ var de = {
     embed: "Einbetten",
     link: "Link",
     menu_title: "Teilen"
-  },
-  ovp: {
-    starting_in: "Countdown"
   }
 }
 

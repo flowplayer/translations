@@ -15,6 +15,9 @@ var en = {
     unmute: "Unmute",
     volume: "Volume"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Cancel",
     up_next: "Up next"
@@ -31,9 +34,6 @@ var en = {
   },
   speed: {
     menu_title: "Speed"
-  },
-  ovp: {
-    starting_in: "Countdown"
   }
 }
 

@@ -15,6 +15,9 @@ var sk = {
     unmute: "Zapnúť zvuk",
     volume: "Hlasitosť"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Cancel",
     up_next: "Ďalšie"
@@ -28,9 +31,6 @@ var sk = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Zdieľať"
-  },
-  ovp: {
-    starting_in: "Countdown"
   }
 }
 

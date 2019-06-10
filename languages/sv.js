@@ -15,6 +15,9 @@ var sv = {
     unmute: "Ljud på",
     volume: "Volym"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Avbryt",
     up_next: "Nästa"
@@ -28,9 +31,6 @@ var sv = {
     embed: "Bädda in",
     link: "Länk",
     menu_title: "Dela"
-  },
-  ovp: {
-    starting_in: "Countdown"
   }
 }
 

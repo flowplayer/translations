@@ -15,6 +15,9 @@ var nb = {
     unmute: "Skru på lyd",
     volume: "Volum"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Cancel",
     up_next: "Neste video"
@@ -28,9 +31,6 @@ var nb = {
     embed: "Embed",
     link: "Link",
     menu_title: "Del"
-  },
-  ovp: {
-    starting_in: "Countdown"
   }
 }
 
