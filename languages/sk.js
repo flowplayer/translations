@@ -28,6 +28,9 @@ var sk = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Zdieľať"
+  },
+  ovp: {
+    starting_in: "Countdown"
   }
 }
 

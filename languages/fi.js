@@ -28,6 +28,9 @@ var fi = {
     embed: "Upota",
     link: "Linkki",
     menu_title: "Jaa"
+  },
+  ovp: {
+    starting_in: "Countdown"
   }
 }
 

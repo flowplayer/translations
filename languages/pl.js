@@ -32,6 +32,9 @@ var pl = {
   speed: {
     menu_title: "Speed"
   },
+  ovp: {
+    starting_in: "Countdown"
+  }
 }
 
 module.exports = pl

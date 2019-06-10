@@ -28,6 +28,9 @@ var de = {
     embed: "Einbetten",
     link: "Link",
     menu_title: "Teilen"
+  },
+  ovp: {
+    starting_in: "Countdown"
   }
 }
 

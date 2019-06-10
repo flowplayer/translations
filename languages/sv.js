@@ -28,6 +28,9 @@ var sv = {
     embed: "Bädda in",
     link: "Länk",
     menu_title: "Dela"
+  },
+  ovp: {
+    starting_in: "Countdown"
   }
 }
 

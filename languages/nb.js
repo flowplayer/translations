@@ -28,6 +28,9 @@ var nb = {
     embed: "Embed",
     link: "Link",
     menu_title: "Del"
+  },
+  ovp: {
+    starting_in: "Countdown"
   }
 }
 
