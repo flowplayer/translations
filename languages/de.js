@@ -15,6 +15,9 @@ var de = {
     unmute: "Ton ein",
     volume: "Lautstärke"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Abbrechen",
     up_next: "Nächste"

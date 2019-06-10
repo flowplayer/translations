@@ -11,7 +11,8 @@ const LANGUAGES = [
   "pt",
   "sk",
   "sv",
-  "pl"
+  "pl",
+  "fr"
 ]
 
 

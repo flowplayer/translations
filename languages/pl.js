@@ -15,6 +15,9 @@ var pl = {
     unmute: "Wyłącz wyciszenie",
     volume: "Głośność"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Anuluj",
     up_next: "Następny"
@@ -31,7 +34,7 @@ var pl = {
   },
   speed: {
     menu_title: "Speed"
-  },
+  }
 }
 
 module.exports = pl

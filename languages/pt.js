@@ -15,6 +15,9 @@ var pt = {
     unmute: "Não silenciado",
     volume: "Volume"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Cancelar",
     up_next: "A seguir"
@@ -31,7 +34,7 @@ var pt = {
   },
   speed: {
     menu_title: "Velocidade"
-  },
+  }
 }
 
 module.exports = pt
