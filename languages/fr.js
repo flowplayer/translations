@@ -23,7 +23,7 @@ var fr = {
     up_next: "Suivant"
   },
   qsel: {
-    menu_title: "Qualié"
+    menu_title: "Qualité"
   },
   share: {
     clipboard_failure: "L'accès au presse-papier a échoué",
