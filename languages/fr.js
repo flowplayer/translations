@@ -3,15 +3,15 @@
  */
 var fr = {
   audio: {
-    button_txt: "Audio",
-    menu_title: "Audio"
+    button_txt: "Son",
+    menu_title: "Son"
   },
   core: {
     exit_fullscreen: "Quitter le mode plein écran",
     fullscreen: "Plein écran",
     mute: "Sourdine",
     pause: "Pause",
-    play: "Jouer",
+    play: "Lecture",
     unmute: "Son activé",
     volume: "Volume"
   },
