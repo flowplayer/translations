@@ -40,6 +40,10 @@ export interface AdsTranslations {
     advertisement: string
 }
 
+export interface OVPTranslations {
+  starting_in: string
+}
+
 export interface Translation {
   core: CoreTranslations,
   playlist: PlaylistTranslations,
@@ -47,5 +51,6 @@ export interface Translation {
   qsel: QualitySelectionTranslations,
   audio: AudioTranslations,
   speed?: SpeedTranslations,
-  ads?: AdsTranslations
+  ads?: AdsTranslations,
+  ovp: OVPTranslations
 }

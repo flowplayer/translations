@@ -15,6 +15,9 @@ var en = {
     unmute: "Unmute",
     volume: "Volume"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Cancel",
     up_next: "Up next"
