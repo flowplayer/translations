@@ -20,6 +20,9 @@ var fi = {
     unmute: "Poista vaimennus",
     volume: "Äänenvoimakkuus"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Peruuta",
     up_next: "Seuraavaksi"

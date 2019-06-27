@@ -20,6 +20,9 @@ var cs = {
     unmute: "Zapnout zvuk",
     volume: "Hlasitost"
   },
+  ovp: {
+    starting_in: "Odpočítavání"
+  },
   playlist: {
     cancel: "Cancel",
     up_next: "Další"

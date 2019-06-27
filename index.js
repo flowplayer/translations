@@ -9,6 +9,7 @@ import pt from "./languages/pt"
 import sk from "./languages/sk"
 import sv from "./languages/sv"
 import pl from "./languages/pl"
+import fr from "./languages/fr"
 
 export {
   cs,
@@ -21,5 +22,6 @@ export {
   pt,
   sk,
   sv,
-  pl
+  pl,
+  fr
 }

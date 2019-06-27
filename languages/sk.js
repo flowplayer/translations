@@ -20,6 +20,9 @@ var sk = {
     unmute: "Zapnúť zvuk",
     volume: "Hlasitosť"
   },
+  ovp: {
+    starting_in: "Countdown"
+  },
   playlist: {
     cancel: "Cancel",
     up_next: "Ďalšie"
