@@ -28,6 +28,11 @@ var de = {
     embed: "Einbetten",
     link: "Link",
     menu_title: "Teilen"
+  },
+  ads: {
+    ad: "Werbung",
+    ads: "Werbung",
+    advertisement: "Werbung"
   }
 }
 

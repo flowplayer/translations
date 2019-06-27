@@ -28,6 +28,11 @@ var sv = {
     embed: "Bädda in",
     link: "Länk",
     menu_title: "Dela"
+  },
+  ads: {
+    ad: "Reklam",
+    ads: "Reklam",
+    advertisement: "Reklam"
   }
 }
 

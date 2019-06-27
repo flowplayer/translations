@@ -32,6 +32,11 @@ var en = {
   speed: {
     menu_title: "Speed"
   },
+  ads: {
+    ad: "Ad",
+    ads: "Ads",
+    advertisement: "Advertisement"
+  }
 }
 
 module.exports = en

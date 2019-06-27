@@ -28,6 +28,11 @@ var sk = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Zdieľať"
+  },
+  ads: {
+    ad: "Reklama",
+    ads: "Reklamy",
+    advertisement: "Reklama"
   }
 }
 

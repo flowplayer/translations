@@ -34,6 +34,12 @@ export interface SpeedTranslations {
   menu_title: string,
 }
 
+export interface AdsTranslations {
+    ad: string,
+    ads: string,
+    advertisement: string
+}
+
 export interface Translation {
   core: CoreTranslations,
   playlist: PlaylistTranslations,
@@ -41,5 +47,5 @@ export interface Translation {
   qsel: QualitySelectionTranslations,
   audio: AudioTranslations,
   speed?: SpeedTranslations,
+  ads?: AdsTranslations
 }
-

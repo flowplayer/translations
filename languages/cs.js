@@ -28,6 +28,11 @@ var cs = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Sdílet"
+  },
+  ads: {
+    ad: "Reklama",
+    ads: "Reklamy",
+    advertisement: "Reklama"
   }
 }
 

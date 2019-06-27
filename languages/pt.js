@@ -32,6 +32,11 @@ var pt = {
   speed: {
     menu_title: "Velocidade"
   },
+  ads: {
+    ad: "Anúncio",
+    ads: "Anúncios",
+    advertisement: "Anúncio"
+  }
 }
 
 module.exports = pt

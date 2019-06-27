@@ -28,6 +28,11 @@ var nb = {
     embed: "Embed",
     link: "Link",
     menu_title: "Del"
+  },
+  ads: {
+    ad: "Reklame",
+    ads: "Reklame",
+    advertisement: "Reklame"
   }
 }
 

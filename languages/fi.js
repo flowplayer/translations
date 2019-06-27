@@ -28,6 +28,11 @@ var fi = {
     embed: "Upota",
     link: "Linkki",
     menu_title: "Jaa"
+  },
+  ads: {
+    ad: "Mainos",
+    ads: "Mainos",
+    advertisement: "Mainos"
   }
 }
 
