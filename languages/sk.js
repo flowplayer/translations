@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var sk = {
+  ads: {
+    ad: "Reklama",
+    ads: "Reklamy",
+    advertisement: "Reklama"
+  },
   audio: {
     button_txt: "Audio",
     menu_title: "Audio"
@@ -28,11 +33,6 @@ var sk = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Zdieľať"
-  },
-  ads: {
-    ad: "Reklama",
-    ads: "Reklamy",
-    advertisement: "Reklama"
   }
 }
 

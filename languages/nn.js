@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var nn = {
+  ads: {
+    ad: "Reklame",
+    ads: "Reklame",
+    advertisement: "Reklame"
+  },
   audio: {
     button_txt: "Lyd",
     menu_title: "Lyd"
@@ -28,11 +33,6 @@ var nn = {
     embed: "Embed",
     link: "Link",
     menu_title: "Del"
-  },
-  ads: {
-    ad: "Reklame",
-    ads: "Reklame",
-    advertisement: "Reklame"
   }
 }
 

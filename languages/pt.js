@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var pt = {
+  ads: {
+    ad: "Anúncio",
+    ads: "Anúncios",
+    advertisement: "Anúncio"
+  },
   audio: {
     button_txt: "Áudio",
     menu_title: "Áudio"
@@ -31,11 +36,6 @@ var pt = {
   },
   speed: {
     menu_title: "Velocidade"
-  },
-  ads: {
-    ad: "Anúncio",
-    ads: "Anúncios",
-    advertisement: "Anúncio"
   }
 }
 

@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var fi = {
+  ads: {
+    ad: "Mainos",
+    ads: "Mainos",
+    advertisement: "Mainos"
+  },
   audio: {
     button_txt: "Kieli",
     menu_title: "Kieli"
@@ -28,11 +33,6 @@ var fi = {
     embed: "Upota",
     link: "Linkki",
     menu_title: "Jaa"
-  },
-  ads: {
-    ad: "Mainos",
-    ads: "Mainos",
-    advertisement: "Mainos"
   }
 }
 

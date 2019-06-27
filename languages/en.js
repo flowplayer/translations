@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var en = {
+  ads: {
+    ad: "Ad",
+    ads: "Ads",
+    advertisement: "Advertisement"
+  },
   audio: {
     button_txt: "Audio",
     menu_title: "Audio"
@@ -31,11 +36,6 @@ var en = {
   },
   speed: {
     menu_title: "Speed"
-  },
-  ads: {
-    ad: "Ad",
-    ads: "Ads",
-    advertisement: "Advertisement"
   }
 }
 

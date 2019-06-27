@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var de = {
+  ads: {
+    ad: "Werbung",
+    ads: "Werbung",
+    advertisement: "Werbung"
+  },
   audio: {
     button_txt: "Ton",
     menu_title: "Ton"
@@ -28,11 +33,6 @@ var de = {
     embed: "Einbetten",
     link: "Link",
     menu_title: "Teilen"
-  },
-  ads: {
-    ad: "Werbung",
-    ads: "Werbung",
-    advertisement: "Werbung"
   }
 }
 

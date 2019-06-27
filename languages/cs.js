@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var cs = {
+  ads: {
+    ad: "Reklama",
+    ads: "Reklamy",
+    advertisement: "Reklama"
+  },
   audio: {
     button_txt: "Audio",
     menu_title: "Audio"
@@ -28,11 +33,6 @@ var cs = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Sdílet"
-  },
-  ads: {
-    ad: "Reklama",
-    ads: "Reklamy",
-    advertisement: "Reklama"
   }
 }
 
