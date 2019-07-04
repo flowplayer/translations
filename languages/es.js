@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var es = {
+  ads: {
+    ad: "Anúncio",
+    ads: "Anúncios",
+    advertisement: "Anúncio"
+  },
   audio: {
     button_txt: "Áudio",
     menu_title: "Áudio"

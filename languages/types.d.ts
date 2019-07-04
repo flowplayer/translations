@@ -34,6 +34,12 @@ export interface SpeedTranslations {
   menu_title: string,
 }
 
+export interface AdsTranslations {
+    ad: string,
+    ads: string,
+    advertisement: string
+}
+
 export interface OVPTranslations {
   starting_in: string
 }
@@ -45,5 +51,6 @@ export interface Translation {
   qsel: QualitySelectionTranslations,
   audio: AudioTranslations,
   speed?: SpeedTranslations,
+  ads?: AdsTranslations,
   ovp: OVPTranslations
 }

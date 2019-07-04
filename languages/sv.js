@@ -2,6 +2,11 @@
  * @type { import("./types").Translation}
  */
 var sv = {
+  ads: {
+    ad: "Reklam",
+    ads: "Reklam",
+    advertisement: "Reklam"
+  },
   audio: {
     button_txt: "Ljud",
     menu_title: "Ljud"
