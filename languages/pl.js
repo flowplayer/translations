@@ -6,7 +6,7 @@ var pl = {
     ad: "Reklama",
     ads: "Reklama",
     advertisement: "Reklama",
-    indicator: "Reklma"
+    indicator: "Reklama"
   },
   audio: {
     button_txt: "Audio",
