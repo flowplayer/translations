@@ -37,7 +37,8 @@ export interface SpeedTranslations {
 export interface AdsTranslations {
     ad: string,
     ads: string,
-    advertisement: string
+    advertisement: string,
+    indicator?: string
 }
 
 export interface OVPTranslations {
