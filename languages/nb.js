@@ -21,7 +21,7 @@ var nb = {
     volume: "Volum"
   },
   ovp: {
-    starting_in: "Nedtelling"
+    starting_in: "Sendingen starter om"
   },
   playlist: {
     cancel: "Cancel",
