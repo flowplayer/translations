@@ -5,7 +5,8 @@ var fi = {
   ads: {
     ad: "Mainos",
     ads: "Mainos",
-    advertisement: "Mainos"
+    advertisement: "Mainos",
+    indicator: "Mainos"
   },
   audio: {
     button_txt: "Kieli",

@@ -2,6 +2,12 @@
  * @type { import("./types").Translation}
  */
 var fr = {
+  ads: {
+    ad: "Annonce",
+    ads: "Annonces",
+    advertisement: "Annonce",
+    indicator: "Annonces"
+  },
   audio: {
     button_txt: "Son",
     menu_title: "Son"

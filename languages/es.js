@@ -5,7 +5,8 @@ var es = {
   ads: {
     ad: "Anúncio",
     ads: "Anúncios",
-    advertisement: "Anúncio"
+    advertisement: "Anúncio",
+    indicator: "Anúncios"
   },
   audio: {
     button_txt: "Áudio",
