@@ -9,7 +9,7 @@ var he = {
     indicator: "מודעה"
   },
   audio: {
-    button_text: "שֶׁמַע",
+    button_txt: "שֶׁמַע",
     menu_title: "שֶׁמַע"
   },
   core: {
