@@ -16,10 +16,10 @@ var he = {
     exit_fullscreen: "צא ממסך מלא",
     fullscreen: "מסך מלא",
     mute: "לְהַשְׁתִיק",
-    pause: "הַפסָקָה",
-    play: "לְשַׂחֵק",
+    pause: "עצור",
+    play: "נגן",
     unmute: "בטל השתקה",
-    volume: "‏עוצמת שמע"
+    volume: "עוצמת שמע"
   },
   ovp: {
     starting_in: "ספירה לאחור"
