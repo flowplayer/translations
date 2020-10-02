@@ -3,6 +3,7 @@ import de from "./languages/de"
 import en from "./languages/en"
 import es from "./languages/es"
 import fi from "./languages/fi"
+import he from "./languages/he"
 import nb from "./languages/nb"
 import nn from "./languages/nn"
 import pt from "./languages/pt"
@@ -17,11 +18,12 @@ export {
   en,
   es,
   fi,
+  fr,
+  he,
   nb,
   nn,
   pt,
   sk,
   sv,
-  pl,
-  fr
+  pl
 }
