@@ -19,7 +19,7 @@ var he = {
     pause: "הַפסָקָה",
     play: "לְשַׂחֵק",
     unmute: "בטל השתקה",
-    volume: "כרך"
+    volume: "‏עוצמת שמע"
   },
   ovp: {
     starting_in: "ספירה לאחור"
