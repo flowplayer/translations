@@ -5,7 +5,8 @@ var nn = {
   ads: {
     ad: "Reklame",
     ads: "Reklame",
-    advertisement: "Reklame"
+    advertisement: "Reklame",
+    indicator: "Reklame"
   },
   audio: {
     button_txt: "Lyd",

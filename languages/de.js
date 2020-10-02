@@ -5,7 +5,8 @@ var de = {
   ads: {
     ad: "Werbung",
     ads: "Werbung",
-    advertisement: "Werbung"
+    advertisement: "Werbung",
+    indicator: "Werbung"
   },
   audio: {
     button_txt: "Ton",

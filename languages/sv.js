@@ -5,7 +5,8 @@ var sv = {
   ads: {
     ad: "Reklam",
     ads: "Reklam",
-    advertisement: "Reklam"
+    advertisement: "Reklam",
+    indicator: "Reklam"
   },
   audio: {
     button_txt: "Ljud",

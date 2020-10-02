@@ -5,7 +5,8 @@ var sk = {
   ads: {
     ad: "Reklama",
     ads: "Reklamy",
-    advertisement: "Reklama"
+    advertisement: "Reklama",
+    indicator: "Reklamy"
   },
   audio: {
     button_txt: "Audio",
