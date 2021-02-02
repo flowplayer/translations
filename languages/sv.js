@@ -32,7 +32,7 @@ var sv = {
     menu_title: "Kvalitet"
   },
   share: {
-    clipboard_failure: "Access to clipboard failed",
+    clipboard_failure: "Åtkomst till Urklipp misslyckades",
     clipboard_success: "Inbäddningskoden är nu kopierad",
     embed: "Bädda in",
     link: "Länk",
