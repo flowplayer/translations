@@ -3,3 +3,5 @@ tmp\.*
 
 # Webstorm project files
 .idea
+# do not commit build files
+dist/
