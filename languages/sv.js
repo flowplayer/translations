@@ -22,7 +22,7 @@ var sv = {
     volume: "Volym"
   },
   ovp: {
-    starting_in: "Countdown"
+    starting_in: "Börjar om"
   },
   playlist: {
     cancel: "Avbryt",
