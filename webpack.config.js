@@ -32,7 +32,7 @@ const entry = lang => {
 
 const all = () => {
   let { fd, name } = tmp("all")
-  fs.writeSync(fd, `import * as all from './index'; flowplayer.util.extend(flowplayer.i18n, all)`)
+  fs.writeSync(fd, `import * as all from './index'; Object.assign(flowplayer.i18n, all)`)
   fs.close(fd)
   return name
 }
