@@ -37,6 +37,9 @@ var sv = {
     embed: "Bädda in",
     link: "Länk",
     menu_title: "Dela"
+  },
+  speed: {
+    menu_title: "Hastighet"
   }
 }
 
