@@ -41,7 +41,6 @@ var de = {
   speed: {
     menu_title: "Geschwindigkeit"
   }
-  
 }
 
 module.exports = de
