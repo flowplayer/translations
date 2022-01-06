@@ -37,6 +37,9 @@ var nb = {
     embed: "Embed",
     link: "Link",
     menu_title: "Del"
+  },
+  speed: {
+    menu_title: "Hastighet"
   }
 }
 
