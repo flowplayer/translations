@@ -22,7 +22,7 @@ var nl = {
     volume: "Volume"
   },
   ovp: {
-    starting_in: "Aftelling"
+    starting_in: "Start over"
   },
   playlist: {
     cancel: "Annuleren",
