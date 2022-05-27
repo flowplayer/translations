@@ -39,7 +39,7 @@ var fr = {
     menu_title: "Partager"
   },
   speed: {
-    menu_title: "Speed"
+    menu_title: "Vitesse"
   }
 }
 

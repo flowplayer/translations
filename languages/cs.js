@@ -37,6 +37,9 @@ var cs = {
     embed: "Kód na stránku",
     link: "Odkaz",
     menu_title: "Sdílet"
+  },
+  speed: {
+    menu_title: "Rychlost"
   }
 }
 
