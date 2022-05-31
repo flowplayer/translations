@@ -37,6 +37,9 @@ var fi = {
     embed: "Upota",
     link: "Linkki",
     menu_title: "Jaa"
+  },
+  speed: {
+    menu_title: "Nopeus"
   }
 }
 

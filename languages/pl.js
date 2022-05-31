@@ -39,7 +39,7 @@ var pl = {
     menu_title: "Share"
   },
   speed: {
-    menu_title: "Speed"
+    menu_title: "Prędkość"
   }
 }
 
