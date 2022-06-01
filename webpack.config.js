@@ -6,14 +6,15 @@ const LANGUAGES = [
   "en",
   "es",
   "fi",
+  "fr",
+  "he",
   "nb",
   "nn",
+  "pl",
   "pt",
   "sk",
   "sv",
-  "pl",
-  "he",
-  "fr"
+  "tr"
 ]
 
 
