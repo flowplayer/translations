@@ -9,6 +9,7 @@ const LANGUAGES = [
   "fr",
   "he",
   "nb",
+  "nl",
   "nn",
   "pl",
   "pt",
