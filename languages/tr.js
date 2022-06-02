@@ -1,7 +1,7 @@
 /**
  * @type { import("./types").Translation}
  */
- var en = {
+var tr = {
   ads: {
     ad: "Reklam",
     ads: "Reklamlar",
@@ -43,4 +43,4 @@
   }
 }
 
-module.exports = en
+module.exports = tr
