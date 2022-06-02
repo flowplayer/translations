@@ -5,6 +5,7 @@ import es from "./languages/es"
 import fi from "./languages/fi"
 import he from "./languages/he"
 import nb from "./languages/nb"
+import nl from "./languages/nl"
 import nn from "./languages/nn"
 import pt from "./languages/pt"
 import sk from "./languages/sk"
@@ -22,6 +23,7 @@ export {
   fr,
   he,
   nb,
+  nl,
   nn,
   pt,
   sk,
