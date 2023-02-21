@@ -12,6 +12,10 @@ var fr = {
     button_txt: "Son",
     menu_title: "Son"
   },
+  cc: {
+    menu_title: "Sous-titres",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "Quitter le mode plein écran",
     fullscreen: "Plein écran",

@@ -12,6 +12,10 @@ var nb = {
     button_txt: "Lyd",
     menu_title: "Lyd"
   },
+  cc: {
+    menu_title: "Undertekster",
+    button: "CC"
+  },
   core: {
     exit_fullscreen: "Avslutt fullskjerm",
     fullscreen: "Fullskjerm",
@@ -32,8 +36,8 @@ var nb = {
     menu_title: "Kvalitet"
   },
   share: {
-    clipboard_failure: "Access to clipboard failed",
-    clipboard_success: "The text is now on your clipboard",
+    clipboard_failure: "Tilgang til utklippstavlen mislyktes",
+    clipboard_success: "Teksten er nå på utklippstavlen din",
     embed: "Embed",
     link: "Link",
     menu_title: "Del"

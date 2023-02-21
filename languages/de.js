@@ -12,6 +12,10 @@ var de = {
     button_txt: "Ton",
     menu_title: "Ton"
   },
+  cc: {
+    menu_title: "Untertitel",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "Vollbild verlassen",
     fullscreen: "Vollbild",

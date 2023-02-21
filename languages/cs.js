@@ -12,6 +12,10 @@ var cs = {
     button_txt: "Audio",
     menu_title: "Audio"
   },
+  cc: {
+    menu_title: "Titulky",
+    button: "CC"
+  },    
   core: {
     exit_fullscreen: "Vypnout režim celé obrazovky",
     fullscreen: "Zapnout režim celé obrazovky",
@@ -32,7 +36,7 @@ var cs = {
     menu_title: "Kvalita"
   },
   share: {
-    clipboard_failure: "Access to clipboard failed",
+    clipboard_failure: "Přístup do schránky se nezdařil",
     clipboard_success: "Kód na stránku je nyní ve vaší schránce",
     embed: "Kód na stránku",
     link: "Odkaz",

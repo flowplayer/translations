@@ -12,6 +12,10 @@ var nl = {
     button_txt: "Audio",
     menu_title: "Audio"
   },
+  cc: {
+    menu_title: "Ondertiteling",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "Sluit fullscreen",
     fullscreen: "Fullscreen",
