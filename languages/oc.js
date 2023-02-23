@@ -1,7 +1,7 @@
 /**
  * @type { import("./types").Translation}
  */
-var en = {
+var oc = {
   ads: {
     ad: "Publicitat",
     ads: "Publicitats",
@@ -12,6 +12,10 @@ var en = {
     button_txt: "Àudio",
     menu_title: "Àudio"
   },
+  cc: {
+    menu_title: "Sostítol",
+    button: "ST"
+  },  
   core: {
     exit_fullscreen: "Sortir de l’ecran complèt",
     fullscreen: "Ecran complèt",
