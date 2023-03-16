@@ -34,6 +34,11 @@ export interface SpeedTranslations {
   menu_title: string,
 }
 
+export interface CCTranslations {
+  menu_title: string,
+  button: string
+}
+
 export interface AdsTranslations {
     ad: string,
     ads: string,
@@ -53,5 +58,6 @@ export interface Translation {
   audio: AudioTranslations,
   speed?: SpeedTranslations,
   ads?: AdsTranslations,
-  ovp: OVPTranslations
+  ovp: OVPTranslations,
+  cc: CCTranslations
 }

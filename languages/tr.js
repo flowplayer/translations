@@ -12,6 +12,10 @@ var tr = {
     button_txt: "Ses",
     menu_title: "Ses"
   },
+  cc: {
+    menu_title: "Altyazılar",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "Tam ekrandan çık",
     fullscreen: "Tam ekran",

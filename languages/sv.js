@@ -12,6 +12,10 @@ var sv = {
     button_txt: "Ljud",
     menu_title: "Ljud"
   },
+  cc: {
+    menu_title: "Undertexter",
+    button: "CC"
+  },   
   core: {
     exit_fullscreen: "Avsluta helskärm",
     fullscreen: "Helskärm",
