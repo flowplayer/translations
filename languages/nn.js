@@ -9,11 +9,11 @@ var nn = {
     indicator: "Reklame"
   },
   audio: {
-    button_txt: "Lyd",
-    menu_title: "Lyd"
+    button_txt: "Lydspor",
+    menu_title: "Lydspor"
   },
   cc: {
-    menu_title: "Undertekster",
+    menu_title: "Teksting",
     button: "CC"
   },  
   core: {
