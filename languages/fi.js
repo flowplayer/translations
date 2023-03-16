@@ -13,9 +13,9 @@ var fi = {
     menu_title: "Kieli"
   },
   cc: {
-    menu_title: "Tekstitys",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "Tekstitys"
+  },
   core: {
     exit_fullscreen: "Poistu kokonäytön tilasta",
     fullscreen: "Koko näytön tila",

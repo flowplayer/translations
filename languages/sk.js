@@ -13,9 +13,9 @@ var sk = {
     menu_title: "Audio"
   },
   cc: {
-    menu_title: "Titulky",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "Titulky"
+  },
   core: {
     exit_fullscreen: "Vypnúť režim celej obrazovky",
     fullscreen: "Zapnúť režim celej obrazovky",

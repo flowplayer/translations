@@ -13,9 +13,9 @@ var sv = {
     menu_title: "Ljud"
   },
   cc: {
-    menu_title: "Undertexter",
-    button: "CC"
-  },   
+    button: "CC",
+    menu_title: "Undertexter"
+  },
   core: {
     exit_fullscreen: "Avsluta helskärm",
     fullscreen: "Helskärm",

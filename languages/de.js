@@ -13,9 +13,9 @@ var de = {
     menu_title: "Ton"
   },
   cc: {
+    button: "CC",
     menu_title: "Untertitel",
-    button: "CC"
-  },  
+  },
   core: {
     exit_fullscreen: "Vollbild verlassen",
     fullscreen: "Vollbild",

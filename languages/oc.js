@@ -13,9 +13,9 @@ var oc = {
     menu_title: "Àudio"
   },
   cc: {
-    menu_title: "Sostítol",
-    button: "ST"
-  },  
+    button: "ST",
+    menu_title: "Sostítol"
+  },
   core: {
     exit_fullscreen: "Sortir de l’ecran complèt",
     fullscreen: "Ecran complèt",

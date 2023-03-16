@@ -13,9 +13,9 @@ var nn = {
     menu_title: "Lydspor"
   },
   cc: {
-    menu_title: "Teksting",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "Teksting"
+  },
   core: {
     exit_fullscreen: "Avslutt fullskjerm",
     fullscreen: "Fullskjerm",

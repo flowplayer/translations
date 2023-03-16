@@ -13,9 +13,9 @@ var he = {
     menu_title: "שֶׁמַע"
   },
   cc: {
-    menu_title: "כתוביות",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "כתוביות"
+  },
   core: {
     exit_fullscreen: "צא ממסך מלא",
     fullscreen: "מסך מלא",
