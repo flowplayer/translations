@@ -12,6 +12,10 @@ var sk = {
     button_txt: "Audio",
     menu_title: "Audio"
   },
+  cc: {
+    menu_title: "Titulky",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "Vypnúť režim celej obrazovky",
     fullscreen: "Zapnúť režim celej obrazovky",

@@ -12,6 +12,10 @@ var he = {
     button_txt: "שֶׁמַע",
     menu_title: "שֶׁמַע"
   },
+  cc: {
+    menu_title: "כתוביות",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "צא ממסך מלא",
     fullscreen: "מסך מלא",

@@ -12,6 +12,10 @@ var pt = {
     button_txt: "Áudio",
     menu_title: "Áudio"
   },
+  cc: {
+    menu_title: "Subtítulos",
+    button: "CC"
+  },
   core: {
     exit_fullscreen: "Tela não cheia",
     fullscreen: "Tela cheia",

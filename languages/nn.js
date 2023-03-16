@@ -9,9 +9,13 @@ var nn = {
     indicator: "Reklame"
   },
   audio: {
-    button_txt: "Lyd",
-    menu_title: "Lyd"
+    button_txt: "Lydspor",
+    menu_title: "Lydspor"
   },
+  cc: {
+    menu_title: "Teksting",
+    button: "CC"
+  },  
   core: {
     exit_fullscreen: "Avslutt fullskjerm",
     fullscreen: "Fullskjerm",
@@ -32,8 +36,8 @@ var nn = {
     menu_title: "Kvalitet"
   },
   share: {
-    clipboard_failure: "Access to clipboard failed",
-    clipboard_success: "The text is now on your clipboard",
+    clipboard_failure: "Tilgang til utklippstavlen mislyktes",
+    clipboard_success: "Teksten er no på utklippstavlen din",
     embed: "Embed",
     link: "Link",
     menu_title: "Del"

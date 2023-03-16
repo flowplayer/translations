@@ -12,6 +12,10 @@ var pl = {
     button_txt: "Audio",
     menu_title: "Audio"
   },
+  cc: {
+    menu_title: "Napisy",
+    button: "CC"
+  },   
   core: {
     exit_fullscreen: "Wyjdź z pełnego ekranu",
     fullscreen: "Pełny ekran",
