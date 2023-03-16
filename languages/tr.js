@@ -13,9 +13,9 @@ var tr = {
     menu_title: "Ses"
   },
   cc: {
-    menu_title: "Altyazılar",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "Altyazılar"
+  },
   core: {
     exit_fullscreen: "Tam ekrandan çık",
     fullscreen: "Tam ekran",

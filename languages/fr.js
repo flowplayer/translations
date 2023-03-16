@@ -13,9 +13,9 @@ var fr = {
     menu_title: "Son"
   },
   cc: {
-    menu_title: "Sous-titres",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "Sous-titres"
+  },
   core: {
     exit_fullscreen: "Quitter le mode plein écran",
     fullscreen: "Plein écran",

@@ -13,9 +13,9 @@ var pl = {
     menu_title: "Audio"
   },
   cc: {
-    menu_title: "Napisy",
-    button: "CC"
-  },   
+    button: "CC",
+    menu_title: "Napisy"
+  },
   core: {
     exit_fullscreen: "Wyjdź z pełnego ekranu",
     fullscreen: "Pełny ekran",

@@ -13,9 +13,9 @@ var es = {
     menu_title: "Áudio"
   },
   cc: {
-    menu_title: "Subtítulos",
-    button: "CC"
-  },  
+    button: "CC",
+    menu_title: "Subtítulos"
+  },
   core: {
     exit_fullscreen: "Pantalla no completa",
     fullscreen: "Pantalla completa",
