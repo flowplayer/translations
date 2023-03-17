@@ -12,6 +12,10 @@ var tlh = {
     button_txt: "qaStaHvIS",
     menu_title: "qaStaHvIS"
   },
+  cc: {
+    button: "CC",
+    menu_title: "qeylIS"
+  },  
   core: {
     exit_fullscreen: "tlhoy'",
     fullscreen: "che'",
@@ -20,10 +24,6 @@ var tlh = {
     play: "chu'",
     unmute: "Huy'vam",
     volume: "muq"
-  },
-  cc: {
-    button: "CC",
-    menu_title: "qeylIS"
   },
   ovp: {
     starting_in: "qornel"
