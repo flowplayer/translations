@@ -23,8 +23,8 @@ var tlh = {
   },
   cc: {
     button: "CC",
-    menu_title: "qeylIS"    
-  }, 
+    menu_title: "qeylIS"
+  },
   ovp: {
     starting_in: "qornel"
   },
