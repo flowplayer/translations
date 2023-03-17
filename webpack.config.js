@@ -11,6 +11,7 @@ const LANGUAGES = [
   "nb",
   "nl",
   "nn",
+  "oc",
   "pl",
   "pt",
   "sk",
