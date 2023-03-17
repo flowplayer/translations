@@ -15,7 +15,7 @@ var tlh = {
   cc: {
     button: "CC",
     menu_title: "qeylIS"
-  },  
+  },
   core: {
     exit_fullscreen: "tlhoy'",
     fullscreen: "che'",
