@@ -8,11 +8,12 @@ import he from "./languages/he"
 import nb from "./languages/nb"
 import nl from "./languages/nl"
 import nn from "./languages/nn"
-import oc from "./languages/nl"
+import oc from "./languages/oc"
 import pl from "./languages/pl"
 import pt from "./languages/pt"
 import sk from "./languages/sk"
 import sv from "./languages/sv"
+import tlh from "./languages/tlh"
 import tr from "./languages/tr"
 
 export {
@@ -31,5 +32,6 @@ export {
   pt,
   sk,
   sv,
+  tlh,
   tr
 }
