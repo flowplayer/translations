@@ -35,8 +35,8 @@ export interface SpeedTranslations {
 }
 
 export interface CCTranslations {
-  menu_title: string,
-  button: string
+  button: string,
+  menu_title: string
 }
 
 export interface AdsTranslations {

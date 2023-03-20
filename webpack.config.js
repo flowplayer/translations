@@ -11,10 +11,12 @@ const LANGUAGES = [
   "nb",
   "nl",
   "nn",
+  "oc",
   "pl",
   "pt",
   "sk",
   "sv",
+  "tlh",
   "tr"
 ]
 
