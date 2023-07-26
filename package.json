@@ -5,16 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
-    "build": "webpack -p"
+    "build": "webpack"
   },
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
-    "expose-loader": "^0.7.5",
     "tmp": "0.0.33",
     "tslint": "^5.13.0",
     "typescript": "^3.3.3333",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
