@@ -29,6 +29,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package-lock.json" }}
 
       # run tests!
+      - run: npm lint
+      - run: npm build
       - run: npm test
 
   publish-translations:

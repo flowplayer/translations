@@ -4,8 +4,9 @@
   "description": "Translation files for flowplayer",
   "main": "index.js",
   "scripts": {
-    "test": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
+    "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
     "build": "webpack",
+    "test": "echo \"not implemented yet\"",
     "rename:mjs": "node rename.js"
   },
   "author": "Flowplayer Authors <info@flowplayer.com>",
