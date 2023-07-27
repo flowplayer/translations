@@ -7,8 +7,7 @@
     "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
     "build": "webpack",
     "postbuild": "npm run rename:mjs",
-    "test": "echo \"not implemented yet\"",
-    "rename:mjs": "tsx bin/rename.ts"
+    "test": "npx ava"
   },
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",

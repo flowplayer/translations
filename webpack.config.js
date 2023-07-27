@@ -68,6 +68,8 @@ module.exports = [{
         'flowplayer.lang.all': all(true)
     }, output: {
         path: path.resolve(__dirname, "dist/esm"),
+        //make sure to generate .js instead of .mjs files.
+        filename: "[name].js",
         library: {
             type: "module"
         }
