@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
-    "build": "webpack",
-    "postbuild": "npm run rename:mjs",
+    "build": "webpack --mode=production",
+    "prebuild": "rm -rf dist/",
     "test": "npx ava"
   },
   "author": "Flowplayer Authors <info@flowplayer.com>",
