@@ -7,7 +7,7 @@ jobs:
   test:
     docker:
       # specify the version you desire here
-      - image: circleci/node:9-stretch
+      - image: cimg/node:20.5.0-browsers
 
     working_directory: ~/repo
 
@@ -29,7 +29,9 @@ jobs:
           key: v1-dependencies-{{ checksum "package-lock.json" }}
 
       # run tests!
-      - run: npm test
+      - run: npm run lint
+      - run: npm run build
+      #- run: npm run test
 
   publish-translations:
     docker:

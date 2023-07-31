@@ -4,17 +4,23 @@
   "description": "Translation files for flowplayer",
   "main": "index.js",
   "scripts": {
-    "test": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
-    "build": "webpack -p"
+    "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
+    "build": "webpack --mode=production",
+    "prebuild": "rm -rf dist/",
+    "test": "npx ava"
   },
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
-    "expose-loader": "^0.7.5",
     "tmp": "0.0.33",
     "tslint": "^5.13.0",
-    "typescript": "^3.3.3333",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.3.12"
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "ava": "^5.3.1",
+    "globby": "^13.2.2",
+    "tsx": "^3.12.7"
   }
 }
