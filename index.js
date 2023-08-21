@@ -15,6 +15,7 @@ import sk from "./languages/sk"
 import sv from "./languages/sv"
 import tlh from "./languages/tlh"
 import tr from "./languages/tr"
+import zh from "./languages/zh"
 
 export {
   cs,
@@ -33,5 +34,6 @@ export {
   sk,
   sv,
   tlh,
-  tr
+  tr,
+  zh
 }
