@@ -12,6 +12,10 @@ var en = {
     button_txt: "Audio",
     menu_title: "Audio"
   },
+  vtsel: {
+    button_txt: "Video",
+    menu_title: "Video Track"
+  },
   cc: {
     button: "CC",
     menu_title: "Subtitles"
