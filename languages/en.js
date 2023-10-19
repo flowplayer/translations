@@ -16,12 +16,18 @@ var en = {
     button: "CC",
     menu_title: "Subtitles"
   },
+  chromecast: {
+    start: "start casting",
+    stop: "stop casting"
+  },
   core: {
     exit_fullscreen: "Exit fullscreen",
     fullscreen: "Fullscreen",
     mute: "Mute",
     pause: "Pause",
     play: "Play",
+    seconds: "Seconds",
+    timeline_aria_label: "Seek slider",
     unmute: "Unmute",
     volume: "Volume"
   },
