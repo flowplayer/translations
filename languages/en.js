@@ -44,6 +44,10 @@ var en = {
   },
   speed: {
     menu_title: "Speed"
+  },
+  vtsel: {
+    button_txt: "Video",
+    menu_title: "Video Track"
   }
 }
 
