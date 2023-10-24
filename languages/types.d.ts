@@ -60,7 +60,7 @@ export interface Translation {
   playlist: PlaylistTranslations,
   share: ShareTranslations,
   qsel: QualitySelectionTranslations,
-  vtsel: VideoTrackSelection,
+  vtsel?: VideoTrackSelection,
   audio: AudioTranslations,
   speed?: SpeedTranslations,
   ads?: AdsTranslations,
