@@ -7,7 +7,7 @@ export interface CoreTranslations {
   seconds: string,
   timeline_aria_label: string,
   unmute: string,
-  volume: string
+  volume: string,
 }
 
 export interface ChromecastTranslations {
@@ -33,6 +33,11 @@ export interface QualitySelectionTranslations {
 }
 
 export interface AudioTranslations {
+  button_txt: string,
+  menu_title: string
+}
+
+export interface VideoTrackSelection {
   button_txt: string,
   menu_title: string
 }
@@ -63,6 +68,7 @@ export interface Translation {
   playlist: PlaylistTranslations,
   share: ShareTranslations,
   qsel: QualitySelectionTranslations,
+  vtsel?: VideoTrackSelection,
   audio: AudioTranslations,
   speed?: SpeedTranslations,
   ads?: AdsTranslations,
