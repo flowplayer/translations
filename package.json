@@ -2,13 +2,19 @@
   "name": "@flowplayer/translations",
   "version": "1.0.5",
   "description": "Translation files for flowplayer",
-  "main": "index.js",
+  "main": "./dist/flowplayer.lang.all.js",
+  "module": "./dist/esm/flowplayer.lang.all.js",
   "scripts": {
     "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
     "build": "webpack --mode=production",
     "prebuild": "rm -rf dist/",
+    "prepublish": "npm run build",
     "test": "npx ava"
   },
+  "files": [
+    "dist/**/*",
+    "LICENSE.md"
+  ],
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
@@ -16,11 +22,12 @@
     "tslint": "^5.13.0",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
+    "webpack-cli": "^5.1.4",
     "ava": "^5.3.1",
     "globby": "^13.2.2",
     "tsx": "^3.12.7"
+  },
+  "dependencies": {
+    
   }
 }
