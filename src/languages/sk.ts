@@ -1,7 +1,6 @@
-/**
- * @type { import("./types").Translation}
- */
-var sk = {
+import { type Translation } from "../types"
+
+export const sk : Translation = {
   ads: {
     ad: "Reklama",
     ads: "Reklamy",
@@ -46,5 +45,3 @@ var sk = {
     menu_title: "rRýchlosť"
   }
 }
-
-module.exports = sk

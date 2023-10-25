@@ -1,7 +1,5 @@
-/**
- * @type { import("./types").Translation}
- */
-var zh = {
+import { Translation } from "../types"
+export const zh : Translation = {
   ads: {
     ad: "广告",
     ads: "广告",
@@ -46,5 +44,3 @@ var zh = {
     menu_title: "倍速"
   }
 }
-
-module.exports = zh

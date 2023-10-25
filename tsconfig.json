@@ -3,7 +3,8 @@
     "checkJs": true,
     "allowJs": true,
     "noImplicitAny": true,
-    "outDir": "/tmp/fp-trans"
+    "declaration": true,
+    "outDir": "/dist"
   },
-  "include": [ "types", "languages/**/*.js" ],
+  "include": [ "types", "languages/de.ts", "languages/cs.ts", "languages/fi.ts", "languages/es.ts", "languages/en.ts" ],
 }
