@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "checkJs": true,
-    "allowJs": true,
+    "allowJs": false,
     "noImplicitAny": true,
-    "declaration": true,
-    "outDir": "/dist"
+    "resolveJsonModule": true,
+    "module": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "."
   },
-  "include": [ "types", "languages/de.ts", "languages/cs.ts", "languages/fi.ts", "languages/es.ts", "languages/en.ts" ],
+  "include": [ "types", "src/**/*", "rollup.config.ts" ],
 }

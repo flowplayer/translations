@@ -6,7 +6,8 @@
   "module": "./dist/esm/flowplayer.lang.all.js",
   "scripts": {
     "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
-    "build": "webpack --mode=production",
+    "rollup": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --bundleConfigAsCjs ",
+    "build": "npm run rollup",
     "prebuild": "rm -rf dist/",
     "prepublish": "npm run build",
     "test": "npx ava"
@@ -18,16 +19,21 @@
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
+    "ava": "^5.3.1",
     "tmp": "0.0.33",
     "tslint": "^5.13.0",
+    "tsx": "^3.12.7",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "ava": "^5.3.1",
-    "globby": "^13.2.2",
-    "tsx": "^3.12.7"
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.1.4"
+  },
+  "volta": {
+    "node": "18.18.2"
   }
 }
