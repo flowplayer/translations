@@ -5,7 +5,9 @@
     "resolveJsonModule": true,
     "module": "NodeNext",
     "allowSyntheticDefaultImports": true,
-    "rootDir": "."
+    "rootDir": ".",
+    "noEmit": true,
+    "skipLibCheck": true
   },
   "include": [ "types", "src/**/*", "rollup.config.ts" ],
 }

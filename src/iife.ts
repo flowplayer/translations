@@ -12,7 +12,7 @@ type FlowplayerUMDStates =
 declare const flowplayer: FlowplayerUMDStates
 
 const def = () : void => {
-  if ( typeof flowplayer == "function" && flowplayer.i18n) return void Object.assign(flowplayer.i18n, langs)
+  if (typeof flowplayer == "function" && flowplayer.i18n) return void Object.assign(flowplayer.i18n, langs)
 }
 
 ~(function __main() : void {
