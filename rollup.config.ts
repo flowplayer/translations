@@ -20,6 +20,28 @@ const umd = (input : string, file : string, name : string) : RollupOptions => {
   }
 }
 
+const cjs = (input : string, file : string) : RollupOptions => {
+  return {
+    input,
+    output: {
+      file,
+      format: 'cjs',
+    },
+    plugins
+  }
+}
+
+const iife = (input : string, file : string) : RollupOptions => {
+  return {
+    input,
+    output: {
+      file,
+      format: 'iife',
+    },
+    plugins
+  }
+}
+
 const esm = (input : string, file : string) : RollupOptions => {
   return {
     input,
@@ -32,7 +54,8 @@ const esm = (input : string, file : string) : RollupOptions => {
 }
 
 const targets = 
-  [ umd("src/index.ts", pkg.main, "flowplayer.i18n")
+  [ iife("src/iife.ts", "dist/flowplayer.lang.all.js") // for cdn iife
+  , cjs("src/index.ts", pkg.main)
   , esm("src/index.ts", pkg.module)
   ]
 

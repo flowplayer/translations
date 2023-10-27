@@ -2,8 +2,9 @@
   "name": "@flowplayer/translations",
   "version": "1.0.5",
   "description": "Translation files for flowplayer",
-  "main": "./dist/flowplayer.lang.all.js",
+  "main": "./dist/index.js",
   "module": "./dist/esm/flowplayer.lang.all.js",
+  "types": "dist/dts/index.d.ts",
   "scripts": {
     "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
     "rollup": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --bundleConfigAsCjs ",
@@ -24,14 +25,13 @@
     "tslint": "^5.13.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
     "rollup": "^4.1.4"
+  },
+  "dependencies": {
+    
   },
   "volta": {
     "node": "18.18.2"
