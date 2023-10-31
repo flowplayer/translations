@@ -1,4 +1,4 @@
-import { Translation } from "../types"
+import { Translation } from ".."
 export const zh : Translation = {
   ads: {
     ad: "广告",

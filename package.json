@@ -14,7 +14,9 @@
     "test": "npx ava"
   },
   "files": [
-    "dist/**/*",
+    "dist/dts/index.d.ts",
+    "dist/esm/flowplayer.lang.all.js",
+    "dist/index.js",
     "LICENSE.md"
   ],
   "author": "Flowplayer Authors <info@flowplayer.com>",
@@ -25,6 +27,8 @@
     "@rollup/plugin-typescript": "^11.1.5",
     "ava": "^5.3.1",
     "rollup": "^4.1.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-ts": "^3.4.5",
     "tmp": "0.0.33",
     "tslint": "^5.13.0",
     "tsx": "^3.12.7",

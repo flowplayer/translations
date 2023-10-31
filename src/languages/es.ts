@@ -1,4 +1,4 @@
-import { type Translation } from "../types"
+import { type Translation } from ".."
 export const es : Translation = {
   ads: {
     ad: "Anúncio",
