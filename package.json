@@ -10,7 +10,7 @@
     "rollup": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --bundleConfigAsCjs ",
     "build": "npm run rollup",
     "prebuild": "rm -rf dist/",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "npx ava"
   },
   "files": [
