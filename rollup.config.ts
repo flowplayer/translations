@@ -80,8 +80,8 @@ const languages = fs.readdirSync(langDir)
 languages.forEach(lang => {
   const input = path.join(langDir, lang)
   const langCode = lang.split(".")[0]!
-  const esmOutput = path.join("dist", "esm", `${langCode}.js`)
-  const umdOutput = path.join("dist", `${langCode}.js`)
+  const esmOutput = path.join("dist", "esm", `flowplayer.lang.${langCode}.js`)
+  const umdOutput = path.join("dist", `flowplayer.lang.${langCode}.js`)
   const umdConst = `flowplayer.i18n.${langCode}`
   targets.push(umd(input, umdOutput, umdConst))
   targets.push(esm(input, esmOutput))
