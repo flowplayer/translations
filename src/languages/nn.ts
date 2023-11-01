@@ -1,7 +1,5 @@
-/**
- * @type { import("./types").Translation}
- */
-var nb = {
+import { type Translation } from ".."
+export const nn : Translation = {
   ads: {
     ad: "Reklame",
     ads: "Reklame",
@@ -21,12 +19,12 @@ var nb = {
     fullscreen: "Fullskjerm",
     mute: "Skru av lyd",
     pause: "Pause",
-    play: "Spill av",
+    play: "Spel av",
     unmute: "Skru på lyd",
     volume: "Volum"
   },
   ovp: {
-    starting_in: "Sendingen starter om"
+    starting_in: "Nedteljing"
   },
   playlist: {
     cancel: "Cancel",
@@ -37,7 +35,7 @@ var nb = {
   },
   share: {
     clipboard_failure: "Tilgang til utklippstavlen mislyktes",
-    clipboard_success: "Teksten er nå på utklippstavlen din",
+    clipboard_success: "Teksten er no på utklippstavlen din",
     embed: "Embed",
     link: "Link",
     menu_title: "Del"
@@ -46,5 +44,3 @@ var nb = {
     menu_title: "Hastighet"
   }
 }
-
-module.exports = nb

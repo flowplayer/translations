@@ -1,26 +1,43 @@
 {
   "name": "@flowplayer/translations",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Translation files for flowplayer",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/esm/flowplayer.lang.all.js",
+  "types": "dist/dts/index.d.ts",
   "scripts": {
-    "lint": "tslint -p . -c tslint.json languages/**/*.js && tsc -p tsconfig.json",
-    "build": "webpack --mode=production",
+    "lint": "npx tsc",
+    "rollup": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --bundleConfigAsCjs ",
+    "build": "npm run rollup",
     "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
     "test": "npx ava"
   },
+  "files": [
+    "dist/dts/index.d.ts",
+    "dist/esm/flowplayer.lang.all.js",
+    "dist/index.js",
+    "LICENSE.md"
+  ],
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "ava": "^5.3.1",
+    "rollup": "^4.1.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-ts": "^3.4.5",
     "tmp": "0.0.33",
     "tslint": "^5.13.0",
-    "typescript": "^5.1.6",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2"
+  },
+  "volta": {
+    "node": "18.18.2"
   },
   "dependencies": {
-    "ava": "^5.3.1",
-    "globby": "^13.2.2",
-    "tsx": "^3.12.7"
+    "@types/node": "^20.8.10"
   }
 }

@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
-    "checkJs": true,
-    "allowJs": true,
+    "allowJs": false,
     "noImplicitAny": true,
-    "outDir": "/tmp/fp-trans"
+    "resolveJsonModule": true,
+    "module": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "noEmit": true,
+    "skipLibCheck": true
   },
-  "include": [ "types", "languages/**/*.js" ],
+  "include": [ "types", "src/**/*", "rollup.config.ts" ],
 }
