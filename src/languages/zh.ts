@@ -1,5 +1,6 @@
+import { satisfies } from "semver"
 import { Translation } from ".."
-export const zh : Translation = {
+export default {
   ads: {
     ad: "广告",
     ads: "广告",
@@ -43,4 +44,4 @@ export const zh : Translation = {
   speed: {
     menu_title: "倍速"
   }
-}
+} satisfies Translation
