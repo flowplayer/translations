@@ -1,4 +1,5 @@
-import { type Translation } from ".."
+import {Translation} from "../types";
+
 export const gr : Translation = {
     ads: {
         ad: "Διαφήμιση",
@@ -42,5 +43,41 @@ export const gr : Translation = {
     },
     speed: {
         menu_title: "Ταχύτητα"
+    },
+    subtitles: {
+        colors: {
+            black: "Μαυρο",
+            blue: "Μπλε",
+            cyan: "Γαλαζιο",
+            green: "Πρασσινο",
+            magenta: "Ροζ",
+            red: "Κοκκινο",
+            white: "Λευκο",
+            yellow: "Κιτρινο",
+        },
+        edgeStyle: {
+            none: "Κανενα",
+            drop_shadow: "Αναπτυσσομενη σκια",
+            raised: "Αναγλυφο",
+            depressed: "Πεπλατυσμενο",
+            outline: "Περιγραμμα"
+        },
+        fontFamily: {
+            monospaced_serif: "Serif σταθερου πλατους",
+            proportional_serif: "Serif αναλογικου πλατους",
+            monospaced_sans_serif: "Sans-Serif σταθερου πλατους",
+            proportional_sans_serif: "Sans-Serif αναλογικου πλατους",
+            casual: "Απλες",
+            cursive: "Λοξες",
+        },
+        properties: {
+            fontFamily: "Οικογενεια γραμματοσειρων",
+            fontSize: "Μεγεθος γραμματοσειρας",
+            fontColor: "Χρωμα  γραμματοσειρας",
+            fontOpacity: "Αδιαφανεια γραμματοσειρας",
+            backgroundColor: "Χρωμα  φοντου",
+            backgroundOpacity: "Αδιαφανεια φοντου",
+            characterEdgeStyle: "Στιλ ακρων χαρακτηρα",
+        }
     }
 }
