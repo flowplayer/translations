@@ -13,7 +13,44 @@ export const gr : Translation = {
     },
     cc: {
         button: "ΥΠ",
-        menu_title: "Υπότιτλοι"
+        menu_title: "Υπότιτλοι",
+        options: "Επιλογες",
+        tracks: "Κομματια",
+        reset: "Επαναφορα",
+        colors: {
+            Black: "Μαυρο",
+            Blue: "Μπλε",
+            Cyan: "Γαλαζιο",
+            Green: "Πρασσινο",
+            Magenta: "Ροζ",
+            Red: "Κοκκινο",
+            White: "Λευκο",
+            Yellow: "Κιτρινο",
+        },
+        edgeStyle: {
+            None: "Κανενα",
+            "Drop shadow": "Αναπτυσσομενη σκια",
+            Raised: "Αναγλυφο",
+            Depressed: "Πεπλατυσμενο",
+            Outline: "Περιγραμμα"
+        },
+        fontFamily: {
+            "Monospaced Serif": "Serif σταθερου πλατους",
+            "Proportional Serif": "Serif αναλογικου πλατους",
+            "Monospaced Sans-Serif": "Sans-Serif σταθερου πλατους",
+            "Proportional Sans-Serif": "Sans-Serif αναλογικου πλατους",
+            Casual: "Απλες",
+            Cursive: "Λοξες",
+        },
+        properties: {
+            fontFamily: "Οικογενεια γραμματοσειρων",
+            fontSize: "Μεγεθος γραμματοσειρας",
+            fontColor: "Χρωμα  γραμματοσειρας",
+            fontOpacity: "Αδιαφανεια γραμματοσειρας",
+            backgroundColor: "Χρωμα  φοντου",
+            backgroundOpacity: "Αδιαφανεια φοντου",
+            characterEdgeStyle: "Στιλ ακρων χαρακτηρα",
+        }
     },
     core: {
         exit_fullscreen: "Έξοδος πλήρους οθονης",
@@ -43,41 +80,5 @@ export const gr : Translation = {
     },
     speed: {
         menu_title: "Ταχύτητα"
-    },
-    subtitles: {
-        colors: {
-            black: "Μαυρο",
-            blue: "Μπλε",
-            cyan: "Γαλαζιο",
-            green: "Πρασσινο",
-            magenta: "Ροζ",
-            red: "Κοκκινο",
-            white: "Λευκο",
-            yellow: "Κιτρινο",
-        },
-        edgeStyle: {
-            none: "Κανενα",
-            drop_shadow: "Αναπτυσσομενη σκια",
-            raised: "Αναγλυφο",
-            depressed: "Πεπλατυσμενο",
-            outline: "Περιγραμμα"
-        },
-        fontFamily: {
-            monospaced_serif: "Serif σταθερου πλατους",
-            proportional_serif: "Serif αναλογικου πλατους",
-            monospaced_sans_serif: "Sans-Serif σταθερου πλατους",
-            proportional_sans_serif: "Sans-Serif αναλογικου πλατους",
-            casual: "Απλες",
-            cursive: "Λοξες",
-        },
-        properties: {
-            fontFamily: "Οικογενεια γραμματοσειρων",
-            fontSize: "Μεγεθος γραμματοσειρας",
-            fontColor: "Χρωμα  γραμματοσειρας",
-            fontOpacity: "Αδιαφανεια γραμματοσειρας",
-            backgroundColor: "Χρωμα  φοντου",
-            backgroundOpacity: "Αδιαφανεια φοντου",
-            characterEdgeStyle: "Στιλ ακρων χαρακτηρα",
-        }
     }
 }

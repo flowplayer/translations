@@ -40,11 +40,11 @@ export interface SpeedTranslations {
 }
 
 export interface CCTranslations {
-  button: string,
-  menu_title: string
-}
-
-export interface SubtitleTranslations {
+  button    : string,
+  menu_title: string,
+  options   ?: string,
+  reset     ?: string,
+  tracks    ?: string,
   properties?: StylePropertiesTranslations,
   colors    ?: ColorsTranslations,
   fontFamily?: FontFamilyTranslations,
@@ -62,31 +62,31 @@ export interface StylePropertiesTranslations {
 }
 
 export interface ColorsTranslations {
-  white  : string,
-  yellow : string,
-  green  : string,
-  cyan   : string,
-  blue   : string,
-  magenta: string,
-  red    : string,
-  black  : string,
+  White  : string,
+  Yellow : string,
+  Green  : string,
+  Cyan   : string,
+  Blue   : string,
+  Magenta: string,
+  Red    : string,
+  Black  : string,
 }
 
 export interface FontFamilyTranslations {
-  monospaced_serif        : string,
-  proportional_serif      : string,
-  monospaced_sans_serif    : string,
-  proportional_sans_serif  : string,
-  casual                 : string,
-  cursive                : string,
+  "Monospaced Serif": string,
+  "Proportional Serif": string,
+  "Monospaced Sans-Serif": string,
+  "Proportional Sans-Serif": string,
+  Casual: string,
+  Cursive: string,
 }
 
 export interface EdgeStyleTranslations {
-  none      : string
-  drop_shadow: string
-  raised    : string
-  depressed : string
-  outline   : string
+  None: string,
+  Raised: string,
+  Depressed: string,
+  Outline: string
+  "Drop shadow": string,
 }
 
 export interface AdsTranslations {
@@ -102,7 +102,6 @@ export interface OVPTranslations {
 
 export interface Translation {
   core: CoreTranslations,
-  subtitles?: SubtitleTranslations,
   playlist: PlaylistTranslations,
   share: ShareTranslations,
   qsel: QualitySelectionTranslations,
