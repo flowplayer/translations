@@ -56,19 +56,68 @@ export interface VideoTrackSelection {
 }
 
 export interface SpeedTranslations {
-  menu_title: string,
+  menu_title: string;
 }
 
 export interface CCTranslations {
-  button: string,
-  menu_title: string
+  button    : string,
+  menu_title: string,
+  options   ?: SubtitleOptionsTranslations,
+  properties?: StylePropertiesTranslations,
+  colors    ?: ColorsTranslations,
+  fontFamily?: FontFamilyTranslations,
+  edgeStyle ?: EdgeStyleTranslations
+}
+
+export interface SubtitleOptionsTranslations {
+  options: string,
+  tracks: string,
+}
+
+export interface StylePropertiesTranslations {
+  fontSize           : string,
+  fontFamily         : string,
+  fontColor          : string,
+  fontOpacity        : string,
+  backgroundColor    : string,
+  backgroundOpacity  : string,
+  characterEdgeStyle : string,
+  reset              : string
+}
+
+export interface ColorsTranslations {
+  White  : string,
+  Yellow : string,
+  Green  : string,
+  Cyan   : string,
+  Blue   : string,
+  Magenta: string,
+  Red    : string,
+  Black  : string,
+}
+
+export interface FontFamilyTranslations {
+  "Monospaced Serif": string,
+  "Proportional Serif": string,
+  "Monospaced Sans-Serif": string,
+  "Proportional Sans-Serif": string,
+  Casual: string,
+  Cursive: string,
+}
+
+export interface EdgeStyleTranslations {
+  None: string,
+  Raised: string,
+  Depressed: string,
+  Outline: string
+  "Drop shadow": string,
 }
 
 export interface AdsTranslations {
-    ad: string,
-    ads: string,
-    advertisement: string,
-    indicator?: string
+  ad: string,
+  ads: string,
+  advertisement: string,
+  indicator?: string
 }
 
 export interface OVPTranslations {
@@ -87,7 +136,6 @@ export interface Translation {
   ovp: OVPTranslations,
   cc: CCTranslations
 }
-
 
 export {
   cs,

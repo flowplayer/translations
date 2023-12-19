@@ -1,4 +1,4 @@
-import { type Translation } from ".."
+import {Translation} from "../types";
 
 export const en : Translation = {
   ads: {
@@ -13,7 +13,44 @@ export const en : Translation = {
   },
   cc: {
     button: "CC",
-    menu_title: "Subtitles"
+    menu_title: "Subtitles",
+    options: "Options",
+    tracks: "Tracks",
+    reset: "Reset",
+    colors: {
+      Black: "Black",
+      Blue: "Blue",
+      Cyan: "Cyan",
+      Green: "Green",
+      Magenta: "Magenta",
+      Red: "Red",
+      White: "White",
+      Yellow: "Yellow",
+    },
+    edgeStyle: {
+      None: "None",
+      "Drop shadow": "Drop shadow",
+      Raised: "Raised",
+      Depressed: "Depressed",
+      Outline: "Outline"
+    },
+    fontFamily: {
+      "Monospaced Serif": "Monospaced Serif",
+      "Proportional Serif": "Proportional Serif",
+      "Monospaced Sans-Serif": "Monospaced Sans-Serif",
+      "Proportional Sans-Serif": "Proportional Sans-Serif",
+      Casual: "Casual",
+      Cursive: "Cursive",
+    },
+    properties: {
+      fontFamily: "Font family",
+      fontSize: "Font size",
+      fontColor: "Font color",
+      fontOpacity: "Font opacity",
+      backgroundColor: "Background color",
+      backgroundOpacity: "Background opacity",
+      characterEdgeStyle: "Character edge style",
+    }
   },
   core: {
     exit_fullscreen: "Exit fullscreen",
