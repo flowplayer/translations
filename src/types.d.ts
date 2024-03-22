@@ -3,9 +3,9 @@ export interface CoreTranslations {
   fullscreen: string,
   mute: string,
   pause: string,
+  seconds?: string,
+  timeline_aria_label?: string,
   play: string,
-  seconds: string,
-  timeline_aria_label: string,
   unmute: string,
   volume: string,
 }
@@ -52,10 +52,10 @@ export interface CCTranslations {
 }
 
 export interface AdsTranslations {
-    ad: string,
-    ads: string,
-    advertisement: string,
-    indicator?: string
+  ad: string,
+  ads: string,
+  advertisement: string,
+  indicator?: string
 }
 
 export interface OVPTranslations {
@@ -63,7 +63,7 @@ export interface OVPTranslations {
 }
 
 export interface Translation {
-  chromecast: ChromecastTranslations,
+  chromecast?: ChromecastTranslations
   core: CoreTranslations,
   playlist: PlaylistTranslations,
   share: ShareTranslations,
