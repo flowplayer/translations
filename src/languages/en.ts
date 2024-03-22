@@ -1,7 +1,6 @@
-/**
- * @type { import("./types").Translation}
- */
-var en = {
+import { type Translation } from ".."
+
+export const en : Translation = {
   ads: {
     ad: "Ad",
     ads: "Ads",
@@ -56,5 +55,3 @@ var en = {
     menu_title: "Video Track"
   }
 }
-
-module.exports = en

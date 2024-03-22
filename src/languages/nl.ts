@@ -1,7 +1,5 @@
-/**
- * @type { import("./types").Translation}
- */
-var nl = {
+import { type Translation } from ".."
+export const nl : Translation = {
   ads: {
     ad: "Ad",
     ads: "Ads",
@@ -46,5 +44,3 @@ var nl = {
     menu_title: "Snelheid"
   }
 }
-
-module.exports = nl

@@ -1,7 +1,6 @@
-/**
- * @type { import("./types").Translation}
- */
-var tlh = {
+import { type Translation } from ".."
+
+export const tlh : Translation = {
   ads: {
     ad: "'chel",
     ads: "tlhaw'DIyuS",
@@ -46,5 +45,3 @@ var tlh = {
     menu_title: "pIp"
   }
 }
-
-module.exports = tlh
