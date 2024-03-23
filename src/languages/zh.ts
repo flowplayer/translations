@@ -1,5 +1,6 @@
-import { Translation } from "..";
-export const zh: Translation = {
+import { satisfies } from "semver"
+import { Translation } from ".."
+export default {
   ads: {
     ad: "广告",
     ads: "广告",
@@ -41,10 +42,10 @@ export const zh: Translation = {
     menu_title: "分享",
   },
   speed: {
-    menu_title: "倍速",
+    menu_title: "倍速"
   },
   vtsel: {
     button_txt: "视频",
     menu_title: "视频轨道",
-  },
-};
+  }
+} satisfies Translation

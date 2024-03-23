@@ -1,5 +1,5 @@
 import { type Translation } from ".."
-export const pt : Translation = {
+export default {
   ads: {
     ad: "Anúncio",
     ads: "Anúncios",
@@ -43,4 +43,4 @@ export const pt : Translation = {
   speed: {
     menu_title: "Velocidade"
   }
-}
+} satisfies Translation
