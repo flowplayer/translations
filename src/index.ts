@@ -23,9 +23,16 @@ export interface CoreTranslations {
   fullscreen: string,
   mute: string,
   pause: string,
+  seconds?: string,
+  timeline_aria_label?: string,
   play: string,
   unmute: string,
   volume: string,
+}
+
+export interface ChromecastTranslations {
+  start: string,
+  stop: string
 }
 
 export interface PlaylistTranslations {
@@ -76,6 +83,7 @@ export interface OVPTranslations {
 }
 
 export interface Translation {
+  chromecast?: ChromecastTranslations
   core: CoreTranslations,
   playlist: PlaylistTranslations,
   share: ShareTranslations,
