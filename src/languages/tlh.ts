@@ -1,6 +1,5 @@
 import { type Translation } from ".."
-
-export const tlh : Translation = {
+export default {
   ads: {
     ad: "'chel",
     ads: "tlhaw'DIyuS",
@@ -44,4 +43,4 @@ export const tlh : Translation = {
   speed: {
     menu_title: "pIp"
   }
-}
+} satisfies Translation

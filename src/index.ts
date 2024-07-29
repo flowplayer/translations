@@ -1,31 +1,38 @@
-import {cs} from "./languages/cs"
-import {de} from "./languages/de"
-import {en} from "./languages/en"
-import {es} from "./languages/es"
-import {fi} from "./languages/fi"
-import {fr} from "./languages/fr"
-import {gr} from "./languages/gr"
-import {he} from "./languages/he"
-import {nb} from "./languages/nb"
-import {nl} from "./languages/nl"
-import {nn} from "./languages/nn"
-import {oc} from "./languages/oc"
-import {pl} from "./languages/pl"
-import {pt} from "./languages/pt"
-import {sk} from "./languages/sk"
-import {sv} from "./languages/sv"
-import {tlh} from "./languages/tlh"
-import {tr} from "./languages/tr"
-import {zh} from "./languages/zh"
+import cs from "./languages/cs"
+import de from "./languages/de"
+import en from "./languages/en"
+import es from "./languages/es"
+import fi from "./languages/fi"
+import fr from "./languages/fr"
+import gr from "./languages/gr"
+import he from "./languages/he"
+import nb from "./languages/nb"
+import nl from "./languages/nl"
+import nn from "./languages/nn"
+import oc from "./languages/oc"
+import pl from "./languages/pl"
+import pt from "./languages/pt"
+import sk from "./languages/sk"
+import sv from "./languages/sv"
+import tlh from "./languages/tlh"
+import tr from "./languages/tr"
+import zh from "./languages/zh"
 
 export interface CoreTranslations {
   exit_fullscreen: string,
   fullscreen: string,
   mute: string,
   pause: string,
+  seconds?: string,
+  timeline_aria_label?: string,
   play: string,
   unmute: string,
   volume: string,
+}
+
+export interface ChromecastTranslations {
+  start: string,
+  stop: string
 }
 
 export interface PlaylistTranslations {
@@ -122,6 +129,7 @@ export interface OVPTranslations {
 }
 
 export interface Translation {
+  chromecast?: ChromecastTranslations
   core: CoreTranslations,
   playlist: PlaylistTranslations,
   share: ShareTranslations,

@@ -1,5 +1,6 @@
+import { satisfies } from "semver"
 import { type Translation } from "../index"
-export const cs : Translation = {
+export default {
   ads: {
     ad: "Reklama",
     ads: "Reklamy",
@@ -43,4 +44,4 @@ export const cs : Translation = {
   speed: {
     menu_title: "Rychlost"
   }
-}
+} satisfies Translation

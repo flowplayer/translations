@@ -1,6 +1,5 @@
-import {Translation} from "../types";
-
-export const gr : Translation = {
+import { type Translation } from ".."
+export default {
     ads: {
         ad: "Διαφήμιση",
         ads: "Διαφήμισεις",
@@ -81,4 +80,4 @@ export const gr : Translation = {
     speed: {
         menu_title: "Ταχύτητα"
     }
-}
+} satisfies Translation

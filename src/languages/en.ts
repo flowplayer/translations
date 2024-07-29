@@ -1,6 +1,6 @@
-import {Translation} from "../types";
+import { type Translation } from ".."
 
-export const en : Translation = {
+export default {
   ads: {
     ad: "Ad",
     ads: "Ads",
@@ -52,12 +52,18 @@ export const en : Translation = {
       characterEdgeStyle: "Character edge style",
     }
   },
+  chromecast: {
+    start: "start casting",
+    stop: "stop casting"
+  },
   core: {
     exit_fullscreen: "Exit fullscreen",
     fullscreen: "Fullscreen",
     mute: "Mute",
     pause: "Pause",
     play: "Play",
+    seconds: "Seconds",
+    timeline_aria_label: "Seek slider",
     unmute: "Unmute",
     volume: "Volume"
   },
@@ -85,4 +91,4 @@ export const en : Translation = {
     button_txt: "Video",
     menu_title: "Video Track"
   }
-}
+} satisfies Translation
