@@ -86,7 +86,6 @@ export interface StylePropertiesTranslations {
   backgroundColor    : string,
   backgroundOpacity  : string,
   characterEdgeStyle : string,
-  reset              : string
 }
 
 export interface ColorsTranslations {
