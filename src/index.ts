@@ -62,16 +62,13 @@ export interface SpeedTranslations {
 export interface CCTranslations {
   button    : string,
   menu_title: string,
-  options   ?: SubtitleOptionsTranslations,
+  options   ?: string,
+  reset     ?: string,
+  tracks    ?: string,
   properties?: StylePropertiesTranslations,
   colors    ?: ColorsTranslations,
   fontFamily?: FontFamilyTranslations,
   edgeStyle ?: EdgeStyleTranslations
-}
-
-export interface SubtitleOptionsTranslations {
-  options: string,
-  tracks: string,
 }
 
 export interface StylePropertiesTranslations {
