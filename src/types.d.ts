@@ -43,12 +43,57 @@ export interface VideoTrackSelection {
 }
 
 export interface SpeedTranslations {
-  menu_title: string,
+  menu_title: string;
 }
 
 export interface CCTranslations {
-  button: string,
-  menu_title: string
+  button    : string,
+  menu_title: string,
+  options   ?: string,
+  reset     ?: string,
+  tracks    ?: string,
+  properties?: StylePropertiesTranslations,
+  colors    ?: ColorsTranslations,
+  fontFamily?: FontFamilyTranslations,
+  edgeStyle ?: EdgeStyleTranslations
+}
+
+export interface StylePropertiesTranslations {
+  fontSize           : string,
+  fontFamily         : string,
+  fontColor          : string,
+  fontOpacity        : string,
+  backgroundColor    : string,
+  backgroundOpacity  : string,
+  characterEdgeStyle : string,
+}
+
+export interface ColorsTranslations {
+  White  : string,
+  Yellow : string,
+  Green  : string,
+  Cyan   : string,
+  Blue   : string,
+  Magenta: string,
+  Red    : string,
+  Black  : string,
+}
+
+export interface FontFamilyTranslations {
+  "Monospaced Serif": string,
+  "Proportional Serif": string,
+  "Monospaced Sans-Serif": string,
+  "Proportional Sans-Serif": string,
+  Casual: string,
+  Cursive: string,
+}
+
+export interface EdgeStyleTranslations {
+  None: string,
+  Raised: string,
+  Depressed: string,
+  Outline: string
+  "Drop shadow": string,
 }
 
 export interface AdsTranslations {
