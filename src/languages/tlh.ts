@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "qil",
-    up_next: "Hu'"
+    up_next: "Hu'",
+    autoplay: "ngI'"
   },
   qsel: {
     menu_title: "boqral"

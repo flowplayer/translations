@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "Peruuta",
-    up_next: "Seuraavaksi"
+    up_next: "Seuraavaksi",
+    autoplay: "Automaattinen Toisto"
   },
   qsel: {
     menu_title: "Laatu"
