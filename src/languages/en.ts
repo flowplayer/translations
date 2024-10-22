@@ -73,7 +73,8 @@ export default {
   playlist: {
     cancel: "Cancel",
     up_next: "Up next",
-    autoplay: "Autoplay"
+    autoplay: "Autoplay",
+    now_playing: "Now playing",
   },
   qsel: {
     menu_title: "Quality"

@@ -38,7 +38,8 @@ export interface ChromecastTranslations {
 export interface PlaylistTranslations {
   up_next: string,
   cancel: string,
-  autoplay: string
+  autoplay: string,
+  now_playing?: string
 }
 
 export interface ShareTranslations {

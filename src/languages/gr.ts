@@ -66,7 +66,8 @@ export default {
     playlist: {
         cancel: "Ακύρωση",
         up_next: "Επόμενο Βίντεο",
-        autoplay: "Αυτόματη Αναπαραγωγή"
+        autoplay: "Αυτόματη Αναπαραγωγή",
+        now_playing: "Παίζει Τώρα"
     },
     qsel: {
         menu_title: "Ανάλυση εικόνας"
