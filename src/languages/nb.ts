@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "Cancel",
-    up_next: "Neste video"
+    up_next: "Neste video",
+    autoplay: "Automatisk Avspilling"
   },
   qsel: {
     menu_title: "Kvalitet"
