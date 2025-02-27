@@ -11,7 +11,8 @@
     "build": "npm run rollup",
     "prebuild": "rm -rf dist/",
     "prepare": "npm run build",
-    "test": "npx ava"
+    "test": "npx ava",
+    "release:stable": "gh workflow run release-please-stable"
   },
   "ava": {
     "extensions": {
