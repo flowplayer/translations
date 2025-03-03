@@ -21,4 +21,4 @@ jobs:
           # for more options
           config-file: config/release-please-canary-config.json
           manifest-file: config/.release-please-canary-manifest.json
-          component-name-in-branch: "native"
+          component-name-in-branch: "translations"
