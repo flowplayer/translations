@@ -1,0 +1,26 @@
+name: pr
+on: [pull_request]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # enforce cultural rules
+  danger-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ vars.NODE_VERSION }}
+          cache: "yarn"
+          cache-dependency-path: "yarn.lock"
+      - run: yarn install --frozen-lockfile # optional, --immutable
+      - id: danger
+        uses: flowplayer/playback-github-actions/danger@main
+        with:
+          node-version: "18"
+          #local-dangerfile: "./dangerfile.js"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
