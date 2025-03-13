@@ -8,7 +8,7 @@ jobs:
   release-please-stable:
     runs-on: ubuntu-latest
     steps:
-      - uses: flowplayer/playback-github-actions/release-please@main
+      - uses: googleapis/release-please-action@v4
         with:
           # this assumes that you have created a personal access token
           # (PAT) and configured it as a GitHub action secret named
