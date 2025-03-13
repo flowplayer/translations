@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "İptal",
-    up_next: "Sonraki"
+    up_next: "Sonraki",
+    autoplay: "Otomatik Oynatma"
   },
   qsel: {
     menu_title: "Kalite"
