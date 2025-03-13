@@ -11,7 +11,7 @@ jobs:
   release-please-canary:
     runs-on: ubuntu-latest
     steps:
-      - uses: flowplayer/playback-github-actions/release-please@main
+      - uses: googleapis/release-please-action@v4
         with:
           # this assumes that you have created a personal access token
           # (PAT) and configured it as a GitHub action secret named
@@ -21,4 +21,3 @@ jobs:
           # for more options
           config-file: config/release-please-canary-config.json
           manifest-file: config/.release-please-canary-manifest.json
-          component-name-in-branch: "translations"
