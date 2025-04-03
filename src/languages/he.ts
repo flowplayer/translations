@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "לְבַטֵל",
-    up_next: "הבא"
+    up_next: "הבא",
+    autoplay: "הפעלה אוטומטית"
   },
   qsel: {
     menu_title: "איכות"

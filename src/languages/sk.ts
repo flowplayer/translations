@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "Cancel",
-    up_next: "Ďalšie"
+    up_next: "Ďalšie",
+    autoplay: "Automatické Prehrávanie"
   },
   qsel: {
     menu_title: "Kvalita"

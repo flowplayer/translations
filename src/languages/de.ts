@@ -28,7 +28,8 @@ export default {
   },
   playlist: {
     cancel: "Abbrechen",
-    up_next: "Nächste"
+    up_next: "Nächste",
+    autoplay: "Autoplay"
   },
   qsel: {
     menu_title: "Qualität"
