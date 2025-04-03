@@ -1,6 +1,6 @@
 {
   "name": "@flowplayer/translations",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Translation files for flowplayer",
   "main": "dist/index.js",
   "module": "dist/esm/flowplayer.lang.all.js",
