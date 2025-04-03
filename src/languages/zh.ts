@@ -73,6 +73,7 @@ export default {
   playlist: {
     cancel: "取消",
     up_next: "即将播放",
+    autoplay: "自动播放"
   },
   qsel: {
     menu_title: "清晰度",
