@@ -28,6 +28,9 @@ export interface CoreTranslations {
   play: string,
   unmute: string,
   volume: string,
+  close?: string, // (float-on-scroll plugin) Hide floating player in 
+  "skip-next"?: string, // (playlist plugin) Go to the next media 
+  "skip-prev"?: string // (playlist plugin)  Go to the previous media
 }
 
 export interface ChromecastTranslations {
