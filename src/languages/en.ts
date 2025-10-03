@@ -65,7 +65,10 @@ export default {
     seconds: "Seconds",
     timeline_aria_label: "Seek slider",
     unmute: "Unmute",
-    volume: "Volume"
+    volume: "Volume",
+    close: "Close",
+    "skip-next": "Next",
+    "skip-prev": "Previous"
   },
   ovp: {
     starting_in: "Countdown"
