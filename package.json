@@ -6,7 +6,7 @@
   "module": "dist/esm/flowplayer.lang.all.js",
   "types": "dist/dts/index.d.ts",
   "scripts": {
-    "lint": "npx tsc",
+    "lint": "npx tsc --noEmit",
     "rollup": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --bundleConfigAsCjs ",
     "build": "npm run rollup",
     "prebuild": "rm -rf dist/",
