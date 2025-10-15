@@ -32,6 +32,7 @@
   "author": "Flowplayer Authors <info@flowplayer.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
+    "@microsoft/api-extractor": "^7.53.1",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
