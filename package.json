@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "npx tsc --noEmit",
     "rollup": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --bundleConfigAsCjs ",
-    "build": "npm run rollup",
+    "build": "npm run rollup && npm run build:dts",
+    "build:dts": "npx tsc && npx api-extractor run",
     "prebuild": "rm -rf dist/",
     "prepare": "npm run build",
     "test": "npx ava",

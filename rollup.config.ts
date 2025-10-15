@@ -1,5 +1,4 @@
 import { type RollupOptions } from "rollup"
-import dts from "rollup-plugin-dts"
 //import { nodeResolve } from "@rollup/plugin-node-resolve"
 import commonjs from "@rollup/plugin-commonjs"
 import typescript from "rollup-plugin-ts"
@@ -15,9 +14,6 @@ const plugins =
       , moduleResolution: "Node"
       , resolveJsonModule: true
       , allowSyntheticDefaultImports: true
-      , declaration: true
-      , declarationDir: "./dist/dts"
-      , emitDeclarationOnly: true
       }
     })
   ]
