@@ -1,19 +1,16 @@
 import { type RollupOptions } from "rollup"
 //import { nodeResolve } from "@rollup/plugin-node-resolve"
 import commonjs from "@rollup/plugin-commonjs"
-import typescript from "rollup-plugin-ts"
+import typescript from '@rollup/plugin-typescript';
 import fs from "fs"
 import path from "path"
 import pkg from "./package.json"
 
 const plugins = 
   [ commonjs()
-  , typescript({tsconfig: 
-      { allowJs: false
-      , noImplicitAny: true
-      , moduleResolution: "Node"
-      , resolveJsonModule: true
-      , allowSyntheticDefaultImports: true
+  , typescript({compilerOptions: 
+      { 
+        declaration: false
       }
     })
   ]
