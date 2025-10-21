@@ -86,7 +86,7 @@ export default {
   },
   speed: {
     menu_title: "Geschwindigkeit"
-  }
+  },
   vtsel: {
     button_txt: "Video",
     menu_title: "Videospur"
