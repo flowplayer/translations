@@ -5,7 +5,8 @@ export default {
     ad: "Ad",
     ads: "Ads",
     advertisement: "Advertisement",
-    indicator: "Ads"
+    indicator: "Ads",
+    adchoices: "AdChoices"
   },
   audio: {
     button_txt: "Audio",
@@ -54,12 +55,13 @@ export default {
   },
   chromecast: {
     start: "start casting",
-    stop: "stop casting"
+    stop: "stop casting",
   },
   core: {
     exit_fullscreen: "Exit fullscreen",
     fullscreen: "Fullscreen",
     mute: "Mute",
+    muted: "Muted",
     pause: "Pause",
     play: "Play",
     seconds: "Seconds",
@@ -78,6 +80,8 @@ export default {
     up_next: "Up next",
     autoplay: "Autoplay",
     now_playing: "Now playing",
+    turn_off_autoplay: "Turn off autoplay",
+    playlist: "Playlist"
   },
   qsel: {
     menu_title: "Quality"
