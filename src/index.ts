@@ -25,6 +25,7 @@ export interface CoreTranslations {
   exit_fullscreen: string,
   fullscreen: string,
   mute: string,
+  muted?: string, // aria-label for the volume button when muted
   pause: string,
   seconds?: string,
   timeline_aria_label?: string,
@@ -41,7 +42,8 @@ export interface CoreTranslations {
  */
 export interface ChromecastTranslations {
   start: string,
-  stop: string
+  stop: string,
+  message?: string // text reporting current connection state
 }
 
 /**
@@ -51,7 +53,9 @@ export interface PlaylistTranslations {
   up_next: string,
   cancel: string,
   autoplay: string,
-  now_playing?: string
+  now_playing?: string, // text showing which video is playing now
+  turn_off_autoplay?: string, // checkbox to turn off/on autoplay
+  playlist?: string // default title for unnamed playlist
 }
 
 /**
@@ -167,7 +171,8 @@ export interface AdsTranslations {
   ad: string,
   ads: string,
   advertisement: string,
-  indicator?: string
+  indicator?: string, // text indicating to the users that an ad is currently running
+  adchoices?: string // text for customizing Google Ads preferences
 }
 
 /**
@@ -182,7 +187,7 @@ export interface OVPTranslations {
  */
 export interface RTSTranslations {
   millicast?: {
-    inactive?: string
+    inactive?: string // text that is shown to the user when broadcast becomes inactive
   }
 }
 
@@ -200,7 +205,8 @@ export interface Translation {
   speed?: SpeedTranslations,
   ads?: AdsTranslations,
   ovp: OVPTranslations,
-  cc: CCTranslations
+  cc: CCTranslations,
+  rts?: RTSTranslations
 }
 
 export {
