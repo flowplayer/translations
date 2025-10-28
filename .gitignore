@@ -1,7 +1,9 @@
 node_modules
 tmp\.*
+temp
 
 # Webstorm project files
 .idea
 # do not commit build files
 dist/
+distTypes/

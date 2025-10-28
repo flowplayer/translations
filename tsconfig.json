@@ -6,8 +6,10 @@
     "module": "NodeNext",
     "allowSyntheticDefaultImports": true,
     "rootDir": ".",
-    "noEmit": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./distTypes",
+    "declarationMap": true
   },
   "include": [ "types", "src/**/*", "rollup.config.ts" ],
 }

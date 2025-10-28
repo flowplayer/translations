@@ -19,6 +19,9 @@ import tr from "./languages/tr"
 import zh from "./languages/zh"
 import hi from "./languages/hi"
 
+/**
+ * @public
+ */
 export interface CoreTranslations {
   exit_fullscreen: string,
   fullscreen: string,
@@ -35,12 +38,18 @@ export interface CoreTranslations {
   "skip-prev"?: string // (playlist plugin)  Go to the previous media
 }
 
+/**
+ * @public
+ */
 export interface ChromecastTranslations {
   start: string,
   stop: string,
   message?: string // text reporting current connection state
 }
 
+/**
+ * @public
+ */
 export interface PlaylistTranslations {
   up_next: string,
   cancel: string,
@@ -50,6 +59,9 @@ export interface PlaylistTranslations {
   playlist?: string // default title for unnamed playlist
 }
 
+/**
+ * @public
+ */
 export interface ShareTranslations {
   clipboard_failure: string,
   clipboard_success: string,
@@ -58,24 +70,39 @@ export interface ShareTranslations {
   menu_title: string
 }
 
+/**
+ * @public
+ */
 export interface QualitySelectionTranslations {
   menu_title: string
 }
 
+/**
+ * @public
+ */
 export interface AudioTranslations {
   button_txt: string,
   menu_title: string
 }
 
+/**
+ * @public
+ */
 export interface VideoTrackSelection {
   button_txt: string,
   menu_title: string
 }
 
+/**
+ * @public
+ */
 export interface SpeedTranslations {
   menu_title: string;
 }
 
+/**
+ * @public
+ */
 export interface CCTranslations {
   button    : string,
   menu_title: string,
@@ -88,6 +115,9 @@ export interface CCTranslations {
   edgeStyle ?: EdgeStyleTranslations
 }
 
+/**
+ * @public
+ */
 export interface StylePropertiesTranslations {
   fontSize           : string,
   fontFamily         : string,
@@ -98,6 +128,9 @@ export interface StylePropertiesTranslations {
   characterEdgeStyle : string,
 }
 
+/**
+ * @public
+ */
 export interface ColorsTranslations {
   White  : string,
   Yellow : string,
@@ -109,6 +142,9 @@ export interface ColorsTranslations {
   Black  : string,
 }
 
+/**
+ * @public
+ */
 export interface FontFamilyTranslations {
   "Monospaced Serif": string,
   "Proportional Serif": string,
@@ -118,6 +154,9 @@ export interface FontFamilyTranslations {
   Cursive: string,
 }
 
+/**
+ * @public
+ */
 export interface EdgeStyleTranslations {
   None: string,
   Raised: string,
@@ -126,6 +165,9 @@ export interface EdgeStyleTranslations {
   "Drop shadow": string,
 }
 
+/**
+ * @public
+ */
 export interface AdsTranslations {
   ad: string,
   ads: string,
@@ -134,16 +176,25 @@ export interface AdsTranslations {
   adchoices?: string // text for customizing Google Ads preferences
 }
 
+/**
+ * @public
+ */
 export interface OVPTranslations {
   starting_in: string
 }
 
+/**
+ * @public
+ */
 export interface RTSTranslations {
   millicast?: {
     inactive?: string // text that is shown to the user when broadcast becomes inactive
   }
 }
 
+/**
+ * @public
+ */
 export interface Translation {
   chromecast?: ChromecastTranslations
   core: CoreTranslations,
