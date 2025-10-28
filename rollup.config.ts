@@ -14,9 +14,12 @@ const plugins =
           allowJs: false
         , noImplicitAny: true
         , moduleResolution: "Node"
+        , module: "esnext"
+        , target: "es5"
         , resolveJsonModule: true
         , allowSyntheticDefaultImports: true
-        , declaration: false
+        , declaration: false,
+        declarationMap: false
       }
     })
   ]
