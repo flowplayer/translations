@@ -17,6 +17,7 @@ import sv from "./languages/sv"
 import tlh from "./languages/tlh"
 import tr from "./languages/tr"
 import zh from "./languages/zh"
+import hi from "./languages/hi"
 
 export interface CoreTranslations {
   exit_fullscreen: string,
@@ -177,5 +178,6 @@ export {
   sv,
   tlh,
   tr,
-  zh
+  zh,
+  hi
 }
