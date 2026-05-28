@@ -44,5 +44,9 @@ export default {
   },
   speed: {
     menu_title: "Rychlost"
+  },
+  spins: {
+    more: "Více",
+    less: "Méně"
   }
 } satisfies Translation

@@ -1,4 +1,6 @@
-    export default {
+import { type Translation } from ".."
+
+export default {
         ads: {
         ad: "Annonce",
         ads: "Annoncer",
@@ -97,6 +99,10 @@
         vtsel: {
         button_txt: "Video",
         menu_title: "Menu-titel"
+        },
+        spins: {
+        more: "Mere",
+        less: "Mindre"
         }
     } satisfies Translation
     

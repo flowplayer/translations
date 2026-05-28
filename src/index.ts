@@ -196,6 +196,14 @@ export interface RTSTranslations {
 /**
  * @public
  */
+export interface SpinsTranslations {
+  more: string,
+  less: string
+}
+
+/**
+ * @public
+ */
 export interface Translation {
   chromecast?: ChromecastTranslations
   core: CoreTranslations,
@@ -208,7 +216,8 @@ export interface Translation {
   ads?: AdsTranslations,
   ovp: OVPTranslations,
   cc: CCTranslations,
-  rts?: RTSTranslations
+  rts?: RTSTranslations,
+  spins?: SpinsTranslations
 }
 
 export {
