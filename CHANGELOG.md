@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.6.0](https://github.com/flowplayer/translations/compare/v2.5.0...v2.6.0) (2026-05-28)
+
+
+### Features
+
+* add spins more/less translations for all languages ([6cfd794](https://github.com/flowplayer/translations/commit/6cfd794af61718c79a12ce9370c5d718910e2b2e))
+* add spins more/less translations for all languages ([94904be](https://github.com/flowplayer/translations/commit/94904be1b90b4eb80819c950e32af71c76887ba1))
+* **da|uk:** add Danish and Ukrainian translation ([58e6ebc](https://github.com/flowplayer/translations/commit/58e6ebc162c5c3aeb8241ea723b4a4abd1b2a78d))
+* **da:** add Danish translation ([aae7558](https://github.com/flowplayer/translations/commit/aae75586ac904f96fe334df440011acd13dedf14))
+* **uk:** add Ukrainian translation ([9001076](https://github.com/flowplayer/translations/commit/900107674cde13f30753943c635a1575edff3807))
+
 ## [2.6.0-rc.1](https://github.com/flowplayer/translations/compare/v2.6.0-rc...v2.6.0-rc.1) (2026-05-28)
 
 
