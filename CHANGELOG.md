@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.6.0-rc](https://github.com/flowplayer/translations/compare/v2.5.0...v2.6.0-rc) (2026-05-28)
+
+
+### Features
+
+* **da|uk:** add Danish and Ukrainian translation ([58e6ebc](https://github.com/flowplayer/translations/commit/58e6ebc162c5c3aeb8241ea723b4a4abd1b2a78d))
+* **da:** add Danish translation ([aae7558](https://github.com/flowplayer/translations/commit/aae75586ac904f96fe334df440011acd13dedf14))
+* **uk:** add Ukrainian translation ([9001076](https://github.com/flowplayer/translations/commit/900107674cde13f30753943c635a1575edff3807))
+
 ## [2.5.0](https://github.com/flowplayer/translations/compare/v2.4.0...v2.5.0) (2025-10-28)
 
 
