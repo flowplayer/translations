@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.6.0-rc.1](https://github.com/flowplayer/translations/compare/v2.6.0-rc...v2.6.0-rc.1) (2026-05-28)
+
+
+### Features
+
+* add spins more/less translations for all languages ([6cfd794](https://github.com/flowplayer/translations/commit/6cfd794af61718c79a12ce9370c5d718910e2b2e))
+* add spins more/less translations for all languages ([94904be](https://github.com/flowplayer/translations/commit/94904be1b90b4eb80819c950e32af71c76887ba1))
+
 ## [2.6.0-rc](https://github.com/flowplayer/translations/compare/v2.5.0...v2.6.0-rc) (2026-05-28)
 
 
