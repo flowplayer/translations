@@ -43,5 +43,9 @@ export default {
   },
   speed: {
     menu_title: "pIp"
+  },
+  spins: {
+    more: "law'",
+    less: "puS"
   }
 } satisfies Translation

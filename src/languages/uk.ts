@@ -99,5 +99,9 @@ export default {
   vtsel: {
     button_txt: "Відео",
     menu_title: "Відеодоріжка",
+  },
+  spins: {
+    more: "Більше",
+    less: "Менше"
   }
 } satisfies Translation

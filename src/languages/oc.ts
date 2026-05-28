@@ -43,5 +43,9 @@ export default {
   },
   speed: {
     menu_title: "Velocitat"
+  },
+  spins: {
+    more: "Mai",
+    less: "Mens"
   }
 } satisfies Translation
