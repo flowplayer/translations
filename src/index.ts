@@ -1,4 +1,5 @@
 import cs from "./languages/cs"
+import da from "./languages/da"
 import de from "./languages/de"
 import en from "./languages/en"
 import es from "./languages/es"
@@ -16,9 +17,9 @@ import sk from "./languages/sk"
 import sv from "./languages/sv"
 import tlh from "./languages/tlh"
 import tr from "./languages/tr"
+import uk from "./languages/uk"
 import zh from "./languages/zh"
 import hi from "./languages/hi"
-
 /**
  * @public
  */
@@ -212,6 +213,7 @@ export interface Translation {
 
 export {
   cs,
+  da,
   de,
   en,
   es,
@@ -229,6 +231,7 @@ export {
   sv,
   tlh,
   tr,
+  uk,
   zh,
   hi
 }
