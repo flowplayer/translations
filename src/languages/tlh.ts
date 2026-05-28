@@ -45,7 +45,7 @@ export default {
     menu_title: "pIp"
   },
   spins: {
-    more: "latlh",
+    more: "law'",
     less: "puS"
   }
 } satisfies Translation
