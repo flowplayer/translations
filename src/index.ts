@@ -1,4 +1,5 @@
 import cs from "./languages/cs"
+import da from "./languages/da"
 import de from "./languages/de"
 import en from "./languages/en"
 import es from "./languages/es"
@@ -16,9 +17,9 @@ import sk from "./languages/sk"
 import sv from "./languages/sv"
 import tlh from "./languages/tlh"
 import tr from "./languages/tr"
+import uk from "./languages/uk"
 import zh from "./languages/zh"
 import hi from "./languages/hi"
-
 /**
  * @public
  */
@@ -196,6 +197,14 @@ export interface RTSTranslations {
 /**
  * @public
  */
+export interface SpinsTranslations {
+  more: string,
+  less: string
+}
+
+/**
+ * @public
+ */
 export interface Translation {
   chromecast?: ChromecastTranslations
   core: CoreTranslations,
@@ -208,11 +217,13 @@ export interface Translation {
   ads?: AdsTranslations,
   ovp: OVPTranslations,
   cc: CCTranslations,
-  rts?: RTSTranslations
+  rts?: RTSTranslations,
+  spins?: SpinsTranslations
 }
 
 export {
   cs,
+  da,
   de,
   en,
   es,
@@ -230,6 +241,7 @@ export {
   sv,
   tlh,
   tr,
+  uk,
   zh,
   hi
 }

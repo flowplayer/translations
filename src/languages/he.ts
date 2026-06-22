@@ -44,5 +44,9 @@ export default {
   },
   speed: {
     menu_title: "מְהִירוּת"
+  },
+  spins: {
+    more: "עוד",
+    less: "פחות"
   }
 } satisfies Translation

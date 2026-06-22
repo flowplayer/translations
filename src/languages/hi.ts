@@ -96,5 +96,9 @@ playlist: {
   vtsel: {
     button_txt: "वीडियो",
     menu_title: "वीडियो ट्रैक"
+  },
+  spins: {
+    more: "अधिक",
+    less: "कम"
   }
 } satisfies Translation

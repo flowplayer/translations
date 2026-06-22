@@ -93,4 +93,8 @@ export default {
     button_txt: "视频",
     menu_title: "视频轨道",
   },
+  spins: {
+    more: "更多",
+    less: "更少"
+  },
 } satisfies Translation;
