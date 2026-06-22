@@ -21,7 +21,8 @@ export default {
     pause: "Pause",
     play: "Lecture",
     unmute: "Son activé",
-    volume: "Volume"
+    volume: "Volume",
+    options: "Options"
   },
   ovp: {
     starting_in: "Compte à rebours"

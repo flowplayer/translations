@@ -21,7 +21,8 @@ export default {
     pause: "Paus",
     play: "Spela",
     unmute: "Ljud på",
-    volume: "Volym"
+    volume: "Volym",
+    options: "Alternativ"
   },
   ovp: {
     starting_in: "Börjar om"

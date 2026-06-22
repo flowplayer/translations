@@ -21,7 +21,8 @@ export default {
     pause: "עצור",
     play: "נגן",
     unmute: "בטל השתקה",
-    volume: "עוצמת שמע"
+    volume: "עוצמת שמע",
+    options: "אפשרויות"
   },
   ovp: {
     starting_in: "ספירה לאחור"

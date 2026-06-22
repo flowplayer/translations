@@ -21,7 +21,8 @@ export default {
     pause: "Pausa",
     play: "Reproducir",
     unmute: "No silenciado",
-    volume: "Volumen"
+    volume: "Volumen",
+    options: "Opciones"
   },
   ovp: {
     starting_in: "Countdown"

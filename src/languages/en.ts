@@ -68,6 +68,7 @@ export default {
     timeline_aria_label: "Seek slider",
     unmute: "Unmute",
     volume: "Volume",
+    options: "Options",
     close: "Close",
     "skip-next": "Next",
     "skip-prev": "Previous"

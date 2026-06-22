@@ -21,7 +21,8 @@ export default {
     pause: "Pause",
     play: "Play",
     unmute: "Dempen opheffen",
-    volume: "Volume"
+    volume: "Volume",
+    options: "Opties"
   },
   ovp: {
     starting_in: "Start over"
