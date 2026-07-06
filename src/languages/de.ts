@@ -64,7 +64,7 @@ export default {
     play: "Abspielen",
     unmute: "Ton ein",
     volume: "Lautstärke",
-    options: "Optionen"
+    options: "Einstellungen"
   },
   ovp: {
     starting_in: "Countdown"
