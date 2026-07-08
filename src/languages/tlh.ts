@@ -21,7 +21,8 @@ export default {
     pause: "yev",
     play: "chu'",
     unmute: "Huy'vam",
-    volume: "muq"
+    volume: "muq",
+    options: "DuHmey"
   },
   ovp: {
     starting_in: "qornel"

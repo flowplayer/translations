@@ -22,7 +22,8 @@ export default {
     pause: "Pauza",
     play: "Přehrát",
     unmute: "Zapnout zvuk",
-    volume: "Hlasitost"
+    volume: "Hlasitost",
+    options: "Možnosti"
   },
   ovp: {
     starting_in: "Odpočítavání"

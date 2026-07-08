@@ -66,6 +66,7 @@ export default {
     timeline_aria_label: "सीक स्लाइडर",
     unmute: "अनम्यूट",
     volume: "वॉल्यूम",
+    options: "विकल्प",
     close: "बंद करें",
     "skip-next": "अगला",
     "skip-prev": "पिछला"

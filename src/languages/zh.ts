@@ -66,6 +66,7 @@ export default {
     timeline_aria_label: "调整播放进度",
     unmute: "取消静音",
     volume: "音量",
+    options: "选项",
   },
   ovp: {
     starting_in: "倒计时",

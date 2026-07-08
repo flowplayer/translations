@@ -21,7 +21,8 @@ export default {
     pause: "Pauza",
     play: "Prehrať",
     unmute: "Zapnúť zvuk",
-    volume: "Hlasitosť"
+    volume: "Hlasitosť",
+    options: "Možnosti"
   },
   ovp: {
     starting_in: "Countdown"

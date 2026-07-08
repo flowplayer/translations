@@ -21,7 +21,8 @@ export default {
     pause: "Keskeytä",
     play: "Toista",
     unmute: "Poista vaimennus",
-    volume: "Äänenvoimakkuus"
+    volume: "Äänenvoimakkuus",
+    options: "Asetukset"
   },
   ovp: {
     starting_in: "Countdown"

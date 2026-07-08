@@ -21,7 +21,8 @@ export default {
     pause: "Pausa",
     play: "Lectura",
     unmute: "Restablir lo son",
-    volume: "Volum"
+    volume: "Volum",
+    options: "Opcions"
   },
   ovp: {
     starting_in: "Descompte"

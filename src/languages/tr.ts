@@ -21,7 +21,8 @@ export default {
     pause: "Duraklat",
     play: "Oynat",
     unmute: "Sesi aç",
-    volume: "Ses"
+    volume: "Ses",
+    options: "Seçenekler"
   },
   ovp: {
     starting_in: "Geri sayım"

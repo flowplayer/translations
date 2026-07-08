@@ -58,7 +58,8 @@ export default {
         pause: "Παύση",
         play: "Αναπαραγωγή",
         unmute: "Κατάργηση σίγασης",
-        volume: "Ενταση ήχου"
+        volume: "Ενταση ήχου",
+        options: "Επιλογες"
     },
     ovp: {
         starting_in: "Αντίστροφη μέτρηση"
