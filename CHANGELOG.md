@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.7.0-rc](https://github.com/flowplayer/translations/compare/v2.6.0...v2.7.0-rc) (2026-07-08)
+
+
+### Features
+
+* add core.options translation key ([b906451](https://github.com/flowplayer/translations/commit/b9064510487a9009fb5bda74be0dbd10e996c303))
+* **PLAY-1452:** add core.options translation key ([70844a2](https://github.com/flowplayer/translations/commit/70844a28d4edfa453a099f29b33a35371b84cad0))
+
 ## [2.6.0](https://github.com/flowplayer/translations/compare/v2.5.0...v2.6.0) (2026-05-28)
 
 
