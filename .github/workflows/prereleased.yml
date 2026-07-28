@@ -1,0 +1,13 @@
+name: prereleased
+on:
+  release:
+    types: [prereleased]
+
+jobs:
+  release-canary:
+    uses: ./.github/workflows/release-channel.yml
+    with:
+      channel: canary
+      tag: ${{ github.event.release.tag_name }}
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

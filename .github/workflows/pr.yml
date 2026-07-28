@@ -1,21 +1,29 @@
-name: "Lint PR"
+name: pr
+on: [pull_request]
 
-on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
-
-permissions:
-  pull-requests: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  main:
-    name: Validate PR title
+  # build all assets for CI context
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: amannn/action-semantic-pull-request@v5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+      - run: npm ci
+      - run: npx tsc --version
+      - run: npm run lint
+      - run: npm run build
+
+  # dry run for releasability, does everything **except** the actual npm publish
+  release-dry-run:
+    uses: ./.github/workflows/release-channel.yml
+    with:
+      tag: v2.7.0
+      channel: canary
+      dry_run: true
