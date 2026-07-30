@@ -1,0 +1,72 @@
+name: release-channel
+on:
+  workflow_call:
+    secrets:
+      NPM_TOKEN:
+        required: false # not needed for dry runs
+    inputs:
+      tag:
+        required: true
+        type: string
+        description: the release tag to publish to npm (e.g. v2.7.0)
+      channel:
+        required: true
+        type: string
+        description: the channel canary|stable to publish to
+      dry_run:
+        required: false
+        type: boolean
+        description: pack and validate everything without publishing to npm
+        default: false
+
+  workflow_dispatch:
+    inputs:
+      tag:
+        required: true
+        type: string
+        description: the release tag to publish to npm (e.g. v2.7.0)
+      channel:
+        required: true
+        type: choice
+        options:
+          - canary
+          - stable
+        description: the channel canary|stable to publish to
+      dry_run:
+        required: false
+        type: boolean
+        description: pack and validate everything without publishing to npm
+        default: false
+
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
+      - name: confirm package.json version matches tag
+        run: |
+          version=$(jq -r '.version' package.json)
+          tag_version="${TAG#v}"
+          echo "package.json version: $version, tag: $TAG"
+          if [ "$version" != "$tag_version" ]; then
+            echo "package.json version ($version) does not match tag ($tag_version)" >&2
+            exit 1
+          fi
+        env:
+          TAG: ${{ inputs.tag }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+      - run: npm ci
+
+      - name: npm-publish-canary
+        if: ${{ inputs.channel == 'canary' }}
+        run: npm publish --tag=next ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: npm-publish-stable
+        if: ${{ inputs.channel == 'stable' }}
+        run: npm publish ${{ inputs.dry_run && '--dry-run' || '' }}
